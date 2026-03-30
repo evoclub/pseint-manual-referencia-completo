@@ -16,7 +16,7 @@ version: "pseint-20250218"
 
 # 18 — Exportación y Herramientas
 
-← [[17 - Perfiles de Lenguaje]] | [[00 - Índice Principal]]
+← [[17-Perfiles-de-Lenguaje]] | [[00-Indice-Principal]]
 
 ---
 
@@ -194,7 +194,7 @@ Disponible para Windows y Linux. No requiere instalación — solo descomprimir 
 Opciones destacadas de configuración:
 
 ```
-Configurar → Opciones del Lenguaje    → Perfil sintáctico (ver [[17 - Perfiles de Lenguaje]])
+Configurar → Opciones del Lenguaje    → Perfil sintáctico (ver [[17-Perfiles-de-Lenguaje]])
 Configurar → Colores del editor        → Personalizar colores de sintaxis
 Configurar → Diagrama de flujo         → Tipo de diagrama y colores por estructura
 Configurar → Fuente                    → Tamaño y tipo de fuente del editor
@@ -221,16 +221,16 @@ Configurar → Fuente                    → Tamaño y tipo de fuente del editor
 
 Las herramientas de PSeInt se complementan con todos los temas del vault:
 
-- [[02 - Estructura General]] — el diagrama refleja la estructura del `Proceso`
-- [[07 - Condicional Si–Entonces]] — aparece como rombo de decisión en el diagrama
-- [[09 - Lazo Mientras]] — aparece como ciclo en el diagrama de flujo
-- [[11 - Lazo Para]] — aparece como estructura iterativa en el diagrama
-- [[15 - SubProcesos y Funciones]] — se exportan como funciones en el lenguaje destino
-- [[17 - Perfiles de Lenguaje]] — afecta la validación durante la ejecución
+- [[02-Estructura-General]] — el diagrama refleja la estructura del `Proceso`
+- [[07-Condicional-Si-Entonces]] — aparece como rombo de decisión en el diagrama
+- [[09-Lazo-Mientras]] — aparece como ciclo en el diagrama de flujo
+- [[11-Lazo-Para]] — aparece como estructura iterativa en el diagrama
+- [[15-SubProcesos-y-Funciones]] — se exportan como funciones en el lenguaje destino
+- [[17-Perfiles-de-Lenguaje]] — afecta la validación durante la ejecución
 
 ---
 
-← [[17 - Perfiles de Lenguaje]] | [[00 - Índice Principal]]
+← [[17-Perfiles-de-Lenguaje]] | [[00-Indice-Principal]]
 
 ---
 > *PSeInt © 2003–2025 Pablo Novara — Licencia GPL v2*  

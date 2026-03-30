@@ -15,7 +15,7 @@ version: "pseint-20250218"
 
 # 04 — Variables e Identificadores
 
-← [[03 - Tipos de Datos]] | [[00 - Índice Principal]] | Siguiente: [[05 - Expresiones y Operadores]] →
+← [[03-Tipos-de-Datos]] | [[00-Indice-Principal]] | Siguiente: [[05-Expresiones-y-Operadores]] →
 
 ---
 
@@ -56,7 +56,7 @@ Mientras        // ❌ es palabra reservada
 año             // ❌ contiene ñ (en perfil estricto)
 ```
 
-> [!tip] Con [[17 - Perfiles de Lenguaje|Sintaxis Flexible]] activada, sí se permiten tildes (`á`, `é`, etc.), diéresis y ñ en los identificadores.
+> [!tip] Con [[17-Perfiles-de-Lenguaje|Sintaxis Flexible]] activada, sí se permiten tildes (`á`, `é`, etc.), diéresis y ñ en los identificadores.
 
 ---
 
@@ -67,7 +67,7 @@ Definir <variable> Como <TipoDeDato>;
 Definir <var1>, <var2>, ..., <varN> Como <TipoDeDato>;
 ```
 
-Ver los tipos disponibles en [[03 - Tipos de Datos]].
+Ver los tipos disponibles en [[03-Tipos-de-Datos]].
 
 ```
 Definir nombre Como Texto;
@@ -77,7 +77,7 @@ Definir aprobado Como Logico;
 Definir a, b, resultado Como Entero;
 ```
 
-> [!note] En [[17 - Perfiles de Lenguaje|Perfil Flexible]]
+> [!note] En [[17-Perfiles-de-Lenguaje|Perfil Flexible]]
 > No es necesario declarar variables con `Definir`. Se crean automáticamente al asignarles un valor por primera vez. En perfil estricto la declaración es **obligatoria**.
 
 ---
@@ -108,7 +108,7 @@ esMayor <- edad >= 18;
 Al ejecutarse la asignación:
 1. Se evalúa la **expresión** de la derecha.
 2. El resultado se almacena en la **variable** de la izquierda.
-3. El [[03 - Tipos de Datos|tipo]] de la variable y de la expresión deben coincidir.
+3. El [[03-Tipos-de-Datos|tipo]] de la variable y de la expresión deben coincidir.
 
 ---
 
@@ -180,12 +180,12 @@ FinProceso
 
 ## Relación con otros temas
 
-- [[03 - Tipos de Datos]] — tipos válidos para las variables
-- [[05 - Expresiones y Operadores]] — qué puede ir en el lado derecho de `<-`
-- [[06 - Entrada y Salida]] — cómo leer valores desde el teclado hacia variables
-- [[12 - Arreglos]] — variables que almacenan múltiples valores
-- [[15 - SubProcesos y Funciones]] — paso de variables como parámetros
+- [[03-Tipos-de-Datos]] — tipos válidos para las variables
+- [[05-Expresiones-y-Operadores]] — qué puede ir en el lado derecho de `<-`
+- [[06-Entrada-y-Salida]] — cómo leer valores desde el teclado hacia variables
+- [[12-Arreglos]] — variables que almacenan múltiples valores
+- [[15-SubProcesos-y-Funciones]] — paso de variables como parámetros
 
 ---
 
-← [[03 - Tipos de Datos]] | [[00 - Índice Principal]] | Siguiente: [[05 - Expresiones y Operadores]] →
+← [[03-Tipos-de-Datos]] | [[00-Indice-Principal]] | Siguiente: [[05-Expresiones-y-Operadores]] →

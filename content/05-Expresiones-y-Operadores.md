@@ -15,18 +15,18 @@ version: "pseint-20250218"
 
 # 05 — Expresiones y Operadores
 
-← [[04 - Variables e Identificadores]] | [[00 - Índice Principal]] | Siguiente: [[06 - Entrada y Salida]] →
+← [[04-Variables-e-Identificadores]] | [[00-Indice-Principal]] | Siguiente: [[06-Entrada-y-Salida]] →
 
 ---
 
 > [!info] Concepto clave
-> Una **expresión** es una combinación de [[04 - Variables e Identificadores|variables]], constantes, operadores y funciones que produce un valor. Las expresiones se usan en [[04 - Variables e Identificadores#Asignación — operador|asignaciones]], condiciones y salidas.
+> Una **expresión** es una combinación de [[04-Variables-e-Identificadores|variables]], constantes, operadores y funciones que produce un valor. Las expresiones se usan en [[04-Variables-e-IdentificadoresAsignacion-operador|asignaciones]], condiciones y salidas.
 
 ---
 
 ## Operadores Relacionales
 
-Comparan dos valores y producen un resultado de [[03 - Tipos de Datos#Tipo Lógico|tipo Lógico]] (`Verdadero` o `Falso`).
+Comparan dos valores y producen un resultado de [[03-Tipos-de-DatosTipo-Logico|tipo Lógico]] (`Verdadero` o `Falso`).
 
 | Operador | Significado | Ejemplo | Resultado |
 |---|---|---|---|
@@ -38,7 +38,7 @@ Comparan dos valores y producen un resultado de [[03 - Tipos de Datos#Tipo Lógi
 | `>=` | Mayor o igual que | `5 >= 6` | `Falso` |
 
 > [!warning] `=` es comparación, no asignación
-> En PSeInt, el signo `=` **compara** valores. Para **asignar**, siempre se usa `<-` (ver [[04 - Variables e Identificadores]]).
+> En PSeInt, el signo `=` **compara** valores. Para **asignar**, siempre se usa `<-` (ver [[04-Variables-e-Identificadores]]).
 
 ```
 // Correcto
@@ -50,7 +50,7 @@ edad <- 18;                    // asigna
 
 ## Operadores Lógicos
 
-Operan sobre valores [[03 - Tipos de Datos#Tipo Lógico|Lógicos]] y producen un resultado Lógico.
+Operan sobre valores [[03-Tipos-de-DatosTipo-Logico|Lógicos]] y producen un resultado Lógico.
 
 | Operador | Sinónimos | Significado | Descripción |
 |---|---|---|---|
@@ -158,7 +158,7 @@ FinSi;
 
 ## Funciones en expresiones
 
-Las [[13 - Funciones Matemáticas]] y [[14 - Funciones de Cadena]] también son parte de las expresiones:
+Las [[13-Funciones-Matematicas]] y [[14-Funciones-de-Cadena]] también son parte de las expresiones:
 
 ```
 hipotenusa <- RC(cateto1 ^ 2 + cateto2 ^ 2);
@@ -170,13 +170,13 @@ longPalabra <- Longitud(palabra);
 
 ## Relación con otros temas
 
-- [[04 - Variables e Identificadores]] — las variables son operandos de las expresiones
-- [[03 - Tipos de Datos]] — el tipo del resultado depende de los operandos
-- [[07 - Condicional Si–Entonces]] — usa expresiones lógicas como condiciones
-- [[09 - Lazo Mientras]] — usa expresiones lógicas como condición del ciclo
-- [[13 - Funciones Matemáticas]] — funciones usables dentro de expresiones numéricas
-- [[14 - Funciones de Cadena]] — funciones usables dentro de expresiones de texto
+- [[04-Variables-e-Identificadores]] — las variables son operandos de las expresiones
+- [[03-Tipos-de-Datos]] — el tipo del resultado depende de los operandos
+- [[07-Condicional-Si-Entonces]] — usa expresiones lógicas como condiciones
+- [[09-Lazo-Mientras]] — usa expresiones lógicas como condición del ciclo
+- [[13-Funciones-Matematicas]] — funciones usables dentro de expresiones numéricas
+- [[14-Funciones-de-Cadena]] — funciones usables dentro de expresiones de texto
 
 ---
 
-← [[04 - Variables e Identificadores]] | [[00 - Índice Principal]] | Siguiente: [[06 - Entrada y Salida]] →
+← [[04-Variables-e-Identificadores]] | [[00-Indice-Principal]] | Siguiente: [[06-Entrada-y-Salida]] →

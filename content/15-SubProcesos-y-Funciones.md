@@ -17,7 +17,7 @@ version: "pseint-20250218"
 
 # 15 — SubProcesos y Funciones
 
-← [[14 - Funciones de Cadena]] | [[00 - Índice Principal]] | Siguiente: [[16 - Comentarios]] →
+← [[14-Funciones-de-Cadena]] | [[00-Indice-Principal]] | Siguiente: [[16-Comentarios]] →
 
 ---
 
@@ -169,7 +169,7 @@ FinProceso
 
 > [!note] Regla de pasaje por defecto
 > - Variables simples → **por valor** (si no se especifica)
-> - [[12 - Arreglos|Arreglos]] → **por referencia** (siempre)
+> - [[12-Arreglos|Arreglos]] → **por referencia** (siempre)
 
 ---
 
@@ -261,14 +261,14 @@ FinProceso
 
 ## Relación con otros temas
 
-- [[02 - Estructura General]] — los SubProcesos van fuera del `Proceso` principal
-- [[04 - Variables e Identificadores]] — los parámetros son identificadores
-- [[03 - Tipos de Datos]] — los parámetros tienen tipos asociados
-- [[12 - Arreglos]] — los arreglos se pasan siempre por referencia
-- [[13 - Funciones Matemáticas]] — funciones predefinidas del lenguaje (no SubProcesos)
-- [[14 - Funciones de Cadena]] — funciones predefinidas para cadenas
-- [[16 - Comentarios]] — documentar los SubProcesos con comentarios
+- [[02-Estructura-General]] — los SubProcesos van fuera del `Proceso` principal
+- [[04-Variables-e-Identificadores]] — los parámetros son identificadores
+- [[03-Tipos-de-Datos]] — los parámetros tienen tipos asociados
+- [[12-Arreglos]] — los arreglos se pasan siempre por referencia
+- [[13-Funciones-Matematicas]] — funciones predefinidas del lenguaje (no SubProcesos)
+- [[14-Funciones-de-Cadena]] — funciones predefinidas para cadenas
+- [[16-Comentarios]] — documentar los SubProcesos con comentarios
 
 ---
 
-← [[14 - Funciones de Cadena]] | [[00 - Índice Principal]] | Siguiente: [[16 - Comentarios]] →
+← [[14-Funciones-de-Cadena]] | [[00-Indice-Principal]] | Siguiente: [[16-Comentarios]] →

@@ -15,7 +15,7 @@ version: "pseint-20250218"
 
 # 17 — Perfiles de Lenguaje
 
-← [[16 - Comentarios]] | [[00 - Índice Principal]] | Siguiente: [[18 - Exportación y Herramientas]] →
+← [[16-Comentarios]] | [[00-Indice-Principal]] | Siguiente: [[18-Exportacion-y-Herramientas]] →
 
 ---
 
@@ -146,8 +146,8 @@ PSeInt incluye perfiles predefinidos para numerosas instituciones de Hispanoamé
 
 La configuración del perfil también afecta:
 
-- **Funciones de cadena** ([[14 - Funciones de Cadena]]): deben estar habilitadas en el perfil para poder usar `Longitud`, `Subcadena`, etc.
-- **Base de arreglos** ([[12 - Arreglos]]): índice inicial puede ser `0` o `1` según el perfil
+- **Funciones de cadena** ([[14-Funciones-de-Cadena]]): deben estar habilitadas en el perfil para poder usar `Longitud`, `Subcadena`, etc.
+- **Base de arreglos** ([[12-Arreglos]]): índice inicial puede ser `0` o `1` según el perfil
 
 ---
 
@@ -172,12 +172,12 @@ En `Configurar → Opciones del Lenguaje → Personalizar`, se pueden ajustar in
 
 ## Relación con otros temas
 
-- [[02 - Estructura General]] — la palabra clave del proceso varía según el perfil
-- [[04 - Variables e Identificadores]] — si `Definir` es obligatorio depende del perfil
-- [[12 - Arreglos]] — la base de índices (0 o 1) depende del perfil
-- [[14 - Funciones de Cadena]] — las funciones de cadena deben estar habilitadas en el perfil
-- [[16 - Comentarios]] — los comentarios funcionan igual en todos los perfiles
+- [[02-Estructura-General]] — la palabra clave del proceso varía según el perfil
+- [[04-Variables-e-Identificadores]] — si `Definir` es obligatorio depende del perfil
+- [[12-Arreglos]] — la base de índices (0 o 1) depende del perfil
+- [[14-Funciones-de-Cadena]] — las funciones de cadena deben estar habilitadas en el perfil
+- [[16-Comentarios]] — los comentarios funcionan igual en todos los perfiles
 
 ---
 
-← [[16 - Comentarios]] | [[00 - Índice Principal]] | Siguiente: [[18 - Exportación y Herramientas]] →
+← [[16-Comentarios]] | [[00-Indice-Principal]] | Siguiente: [[18-Exportacion-y-Herramientas]] →

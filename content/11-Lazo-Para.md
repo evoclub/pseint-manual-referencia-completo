@@ -16,7 +16,7 @@ version: "pseint-20250218"
 
 # 11 — Lazo Para
 
-← [[10 - Lazo Repetir–Hasta Que]] | [[00 - Índice Principal]] | Siguiente: [[12 - Arreglos]] →
+← [[10-Lazo-Repetir-Hasta-Que]] | [[00-Indice-Principal]] | Siguiente: [[12-Arreglos]] →
 
 ---
 
@@ -126,7 +126,7 @@ FinProceso
 
 ## Uso con Arreglos — carga y recorrido
 
-El uso más frecuente de `Para` es para cargar y procesar [[12 - Arreglos]]:
+El uso más frecuente de `Para` es para cargar y procesar [[12-Arreglos]]:
 
 ```
 Proceso CargarYMostrar
@@ -151,7 +151,7 @@ FinProceso
 
 ## Para anidado — Matrices
 
-Para recorrer [[12 - Arreglos|matrices]] (arreglos de 2 dimensiones):
+Para recorrer [[12-Arreglos|matrices]] (arreglos de 2 dimensiones):
 
 ```
 Proceso RecorrerMatriz
@@ -197,9 +197,9 @@ FinProceso
 
 | Lazo | Cuándo usarlo |
 |---|---|
-| [[11 - Lazo Para\|Para]] | Número de iteraciones **conocido de antemano** |
-| [[09 - Lazo Mientras\|Mientras]] | Número de iteraciones **desconocido**, condición al inicio |
-| [[10 - Lazo Repetir–Hasta Que\|Repetir]] | Número de iteraciones **desconocido**, siempre ejecuta al menos una vez |
+| [[11-Lazo-Para\|Para]] | Número de iteraciones **conocido de antemano** |
+| [[09-Lazo-Mientras\|Mientras]] | Número de iteraciones **desconocido**, condición al inicio |
+| [[10-Lazo-Repetir-Hasta-Que\|Repetir]] | Número de iteraciones **desconocido**, siempre ejecuta al menos una vez |
 
 > [!tip] Regla práctica
 > Si puedes decir *"repite exactamente N veces"*, usa `Para`. Si depende de los datos del usuario, usa `Mientras` o `Repetir`.
@@ -208,12 +208,12 @@ FinProceso
 
 ## Relación con otros temas
 
-- [[12 - Arreglos]] — `Para` es la estructura natural para recorrer arreglos
-- [[05 - Expresiones y Operadores]] — `inicial`, `final` y `paso` son expresiones numéricas
-- [[04 - Variables e Identificadores]] — la variable contadora debe ser de tipo numérico
-- [[06 - Entrada y Salida]] — combinado con `Leer` para cargar datos
-- [[15 - SubProcesos y Funciones]] — `Para` puede usarse dentro de subprocesos
+- [[12-Arreglos]] — `Para` es la estructura natural para recorrer arreglos
+- [[05-Expresiones-y-Operadores]] — `inicial`, `final` y `paso` son expresiones numéricas
+- [[04-Variables-e-Identificadores]] — la variable contadora debe ser de tipo numérico
+- [[06-Entrada-y-Salida]] — combinado con `Leer` para cargar datos
+- [[15-SubProcesos-y-Funciones]] — `Para` puede usarse dentro de subprocesos
 
 ---
 
-← [[10 - Lazo Repetir–Hasta Que]] | [[00 - Índice Principal]] | Siguiente: [[12 - Arreglos]] →
+← [[10-Lazo-Repetir-Hasta-Que]] | [[00-Indice-Principal]] | Siguiente: [[12-Arreglos]] →

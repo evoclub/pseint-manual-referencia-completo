@@ -17,7 +17,7 @@ version: "pseint-20250218"
 
 # 14 — Funciones de Cadena
 
-← [[13 - Funciones Matemáticas]] | [[00 - Índice Principal]] | Siguiente: [[15 - SubProcesos y Funciones]] →
+← [[13-Funciones-Matematicas]] | [[00-Indice-Principal]] | Siguiente: [[15-SubProcesos-y-Funciones]] →
 
 ---
 
@@ -91,7 +91,7 @@ FinPara;
 ```
 
 > [!warning] Base de índices
-> La posición de inicio depende del [[17 - Perfiles de Lenguaje|perfil de lenguaje]]:
+> La posición de inicio depende del [[17-Perfiles-de-Lenguaje|perfil de lenguaje]]:
 > - **Perfil estándar:** índices desde **1** (la primera letra es la posición 1)
 > - **Perfil alternativo:** índices desde **0** (la primera letra es la posición 0)
 
@@ -206,14 +206,14 @@ FinSi;
 
 ## Relación con otros temas
 
-- [[03 - Tipos de Datos#Tipo Carácter / Cadena|Tipo Carácter/Cadena]] — el tipo de dato que manejan estas funciones
-- [[05 - Expresiones y Operadores]] — las funciones se usan dentro de expresiones
-- [[11 - Lazo Para]] — recorrer una cadena letra por letra
-- [[07 - Condicional Si–Entonces]] — comparar subcadenas para tomar decisiones
-- [[10 - Lazo Repetir–Hasta Que]] — validar texto ingresado por el usuario
-- [[13 - Funciones Matemáticas]] — funciones equivalentes para números
-- [[15 - SubProcesos y Funciones]] — encapsular operaciones de cadena en subprocesos
+- [[03-Tipos-de-DatosTipo-Caracter-Cadena|Tipo Carácter/Cadena]] — el tipo de dato que manejan estas funciones
+- [[05-Expresiones-y-Operadores]] — las funciones se usan dentro de expresiones
+- [[11-Lazo-Para]] — recorrer una cadena letra por letra
+- [[07-Condicional-Si-Entonces]] — comparar subcadenas para tomar decisiones
+- [[10-Lazo-Repetir-Hasta-Que]] — validar texto ingresado por el usuario
+- [[13-Funciones-Matematicas]] — funciones equivalentes para números
+- [[15-SubProcesos-y-Funciones]] — encapsular operaciones de cadena en subprocesos
 
 ---
 
-← [[13 - Funciones Matemáticas]] | [[00 - Índice Principal]] | Siguiente: [[15 - SubProcesos y Funciones]] →
+← [[13-Funciones-Matematicas]] | [[00-Indice-Principal]] | Siguiente: [[15-SubProcesos-y-Funciones]] →

@@ -13,7 +13,7 @@ version: "pseint-20250218"
 
 # 16 — Comentarios
 
-← [[15 - SubProcesos y Funciones]] | [[00 - Índice Principal]] | Siguiente: [[17 - Perfiles de Lenguaje]] →
+← [[15-SubProcesos-y-Funciones]] | [[00-Indice-Principal]] | Siguiente: [[17-Perfiles-de-Lenguaje]] →
 
 ---
 
@@ -169,10 +169,10 @@ FinProceso
 
 ## Relación con otros temas
 
-- [[02 - Estructura General]] — los comentarios pueden aparecer fuera del `Proceso`
-- [[15 - SubProcesos y Funciones]] — documentar parámetros y propósito de cada subproceso
-- [[17 - Perfiles de Lenguaje]] — los comentarios funcionan igual en todos los perfiles
+- [[02-Estructura-General]] — los comentarios pueden aparecer fuera del `Proceso`
+- [[15-SubProcesos-y-Funciones]] — documentar parámetros y propósito de cada subproceso
+- [[17-Perfiles-de-Lenguaje]] — los comentarios funcionan igual en todos los perfiles
 
 ---
 
-← [[15 - SubProcesos y Funciones]] | [[00 - Índice Principal]] | Siguiente: [[17 - Perfiles de Lenguaje]] →
+← [[15-SubProcesos-y-Funciones]] | [[00-Indice-Principal]] | Siguiente: [[17-Perfiles-de-Lenguaje]] →

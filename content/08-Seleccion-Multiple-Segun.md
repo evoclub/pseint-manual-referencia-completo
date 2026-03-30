@@ -16,7 +16,7 @@ version: "pseint-20250218"
 
 # 08 — Selección Múltiple — Según
 
-← [[07 - Condicional Si–Entonces]] | [[00 - Índice Principal]] | Siguiente: [[09 - Lazo Mientras]] →
+← [[07-Condicional-Si-Entonces]] | [[00-Indice-Principal]] | Siguiente: [[09-Lazo-Mientras]] →
 
 ---
 
@@ -37,7 +37,7 @@ FinSegun
 ```
 
 > [!note] Reglas
-> - La `<variable>` debe ser de [[03 - Tipos de Datos#Tipo Numérico|tipo Numérico]]
+> - La `<variable>` debe ser de [[03-Tipos-de-DatosTipo-Numerico|tipo Numérico]]
 > - Múltiples valores para una misma opción se separan con **comas** `,`
 > - `De Otro Modo` es **opcional** — se ejecuta si el valor no coincide con ninguna opción
 > - Las instrucciones de cada opción pueden ocupar más de una línea
@@ -124,7 +124,7 @@ FinProceso
 ```
 
 > [!tip] `Si` dentro de `Según`
-> Las instrucciones dentro de cada opción pueden incluir estructuras completas como [[07 - Condicional Si–Entonces]], [[09 - Lazo Mientras]], etc.
+> Las instrucciones dentro de cada opción pueden incluir estructuras completas como [[07-Condicional-Si-Entonces]], [[09-Lazo-Mientras]], etc.
 
 ---
 
@@ -158,17 +158,17 @@ FinSegun
 
 > [!tip] Cuándo usar cada uno
 > - Usa `Según` cuando evalúas **una variable** contra **valores numéricos específicos**
-> - Usa [[07 - Condicional Si–Entonces]] cuando evalúas **rangos**, **condiciones compuestas** o variables de tipo texto
+> - Usa [[07-Condicional-Si-Entonces]] cuando evalúas **rangos**, **condiciones compuestas** o variables de tipo texto
 
 ---
 
 ## Relación con otros temas
 
-- [[07 - Condicional Si–Entonces]] — alternativa para condiciones complejas o rangos
-- [[05 - Expresiones y Operadores]] — la variable del `Según` puede ser el resultado de una expresión
-- [[03 - Tipos de Datos#Tipo Numérico|Tipo Numérico]] — el `Según` solo trabaja con variables numéricas
-- [[06 - Entrada y Salida]] — `Según` típicamente procesa valores leídos con `Leer`
+- [[07-Condicional-Si-Entonces]] — alternativa para condiciones complejas o rangos
+- [[05-Expresiones-y-Operadores]] — la variable del `Según` puede ser el resultado de una expresión
+- [[03-Tipos-de-DatosTipo-Numerico|Tipo Numérico]] — el `Según` solo trabaja con variables numéricas
+- [[06-Entrada-y-Salida]] — `Según` típicamente procesa valores leídos con `Leer`
 
 ---
 
-← [[07 - Condicional Si–Entonces]] | [[00 - Índice Principal]] | Siguiente: [[09 - Lazo Mientras]] →
+← [[07-Condicional-Si-Entonces]] | [[00-Indice-Principal]] | Siguiente: [[09-Lazo-Mientras]] →

@@ -15,12 +15,12 @@ version: "pseint-20250218"
 
 # 13 — Funciones Matemáticas
 
-← [[12 - Arreglos]] | [[00 - Índice Principal]] | Siguiente: [[14 - Funciones de Cadena]] →
+← [[12-Arreglos]] | [[00-Indice-Principal]] | Siguiente: [[14-Funciones-de-Cadena]] →
 
 ---
 
 > [!info] Concepto clave
-> PSeInt incluye un conjunto de **funciones matemáticas predefinidas** que pueden usarse dentro de cualquier [[05 - Expresiones y Operadores|expresión]] numérica. Se escriben con su nombre seguido del argumento entre paréntesis.
+> PSeInt incluye un conjunto de **funciones matemáticas predefinidas** que pueden usarse dentro de cualquier [[05-Expresiones-y-Operadores|expresión]] numérica. Se escriben con su nombre seguido del argumento entre paréntesis.
 
 ---
 
@@ -139,7 +139,7 @@ FinProceso
 
 ## Funciones dentro de expresiones
 
-Las funciones pueden usarse directamente en cualquier [[05 - Expresiones y Operadores|expresión]]:
+Las funciones pueden usarse directamente en cualquier [[05-Expresiones-y-Operadores|expresión]]:
 
 ```
 // Combinadas con operadores
@@ -172,18 +172,18 @@ SubProceso resultado <- NumeroAleatorioEntre(minimo, maximo)
 FinSubProceso
 ```
 
-Ver [[15 - SubProcesos y Funciones]] para más detalles.
+Ver [[15-SubProcesos-y-Funciones]] para más detalles.
 
 ---
 
 ## Relación con otros temas
 
-- [[05 - Expresiones y Operadores]] — las funciones son parte de las expresiones
-- [[04 - Variables e Identificadores]] — los argumentos son variables o expresiones numéricas
-- [[14 - Funciones de Cadena]] — funciones equivalentes para texto
-- [[15 - SubProcesos y Funciones]] — se pueden encapsular en subprocesos propios
-- [[03 - Tipos de Datos#Tipo Numérico|Tipo Numérico]] — todas las funciones matemáticas operan sobre números
+- [[05-Expresiones-y-Operadores]] — las funciones son parte de las expresiones
+- [[04-Variables-e-Identificadores]] — los argumentos son variables o expresiones numéricas
+- [[14-Funciones-de-Cadena]] — funciones equivalentes para texto
+- [[15-SubProcesos-y-Funciones]] — se pueden encapsular en subprocesos propios
+- [[03-Tipos-de-DatosTipo-Numerico|Tipo Numérico]] — todas las funciones matemáticas operan sobre números
 
 ---
 
-← [[12 - Arreglos]] | [[00 - Índice Principal]] | Siguiente: [[14 - Funciones de Cadena]] →
+← [[12-Arreglos]] | [[00-Indice-Principal]] | Siguiente: [[14-Funciones-de-Cadena]] →

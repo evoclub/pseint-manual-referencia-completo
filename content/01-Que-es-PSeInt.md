@@ -12,7 +12,7 @@ version: "pseint-20250218"
 
 # 01 — ¿Qué es PSeInt?
 
-← [[00 - Índice Principal]] | Siguiente: [[02 - Estructura General]] →
+← [[00-Indice-Principal]] | Siguiente: [[02-Estructura-General]] →
 
 ---
 
@@ -42,10 +42,10 @@ También recibió la distinción **Open Source Excellence** por superar las 100 
 > Que en la palabra *pseudocódigo* pese más la parte **pseudo** que la de *código*. El foco está en la lógica del algoritmo, no en la sintaxis.
 
 El pseudocódigo se usa como primer contacto para introducir:
-- Estructuras de control ([[07 - Condicional Si–Entonces]], [[09 - Lazo Mientras]], [[11 - Lazo Para]])
-- [[03 - Tipos de Datos]] y [[04 - Variables e Identificadores]]
-- [[05 - Expresiones y Operadores]]
-- [[12 - Arreglos]] y [[15 - SubProcesos y Funciones]]
+- Estructuras de control ([[07-Condicional-Si-Entonces]], [[09-Lazo-Mientras]], [[11-Lazo-Para]])
+- [[03-Tipos-de-Datos]] y [[04-Variables-e-Identificadores]]
+- [[05-Expresiones-y-Operadores]]
+- [[12-Arreglos]] y [[15-SubProcesos-y-Funciones]]
 
 …sin tener que lidiar con las particularidades de un lenguaje real.
 
@@ -56,12 +56,12 @@ El pseudocódigo se usa como primer contacto para introducir:
 | Característica | Detalle |
 |---|---|
 | **Idioma** | Español (pseudolenguaje natural) |
-| **Sintaxis** | Configurable: flexible → estricta (ver [[17 - Perfiles de Lenguaje]]) |
+| **Sintaxis** | Configurable: flexible → estricta (ver [[17-Perfiles-de-Lenguaje]]) |
 | **Autocompletado** | El editor sugiere estructuras y palabras clave |
 | **Resaltado de sintaxis** | Coloreado automático del código |
 | **Ejecución paso a paso** | Permite seguir el flujo del algoritmo instrucción por instrucción |
 | **Variables en tiempo real** | Panel lateral muestra el valor actual de cada variable |
-| **Diagrama de flujo** | Generado automáticamente desde el pseudocódigo (ver [[18 - Exportación y Herramientas]]) |
+| **Diagrama de flujo** | Generado automáticamente desde el pseudocódigo (ver [[18-Exportacion-y-Herramientas]]) |
 | **Exportación** | C, C++, C#, Java, JavaScript, PHP, Python, VB.NET, Matlab |
 | **Plataformas** | Windows, GNU/Linux, macOS |
 | **Versión portable** | Disponible para uso sin instalación |
@@ -94,8 +94,8 @@ El pseudocódigo se usa como primer contacto para introducir:
 
 PSeInt funciona como **puente** entre lenguajes visuales por bloques (como Scratch) y lenguajes textuales (Python, Java, C). Es ampliamente utilizado en universidades de toda Hispanoamérica y España.
 
-Los docentes pueden ajustar el rigor sintáctico mediante [[17 - Perfiles de Lenguaje]] para adaptarse al nivel de sus alumnos.
+Los docentes pueden ajustar el rigor sintáctico mediante [[17-Perfiles-de-Lenguaje]] para adaptarse al nivel de sus alumnos.
 
 ---
 
-← [[00 - Índice Principal]] | Siguiente: [[02 - Estructura General]] →
+← [[00-Indice-Principal]] | Siguiente: [[02-Estructura-General]] →

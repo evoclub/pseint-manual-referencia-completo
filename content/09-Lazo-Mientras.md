@@ -15,7 +15,7 @@ version: "pseint-20250218"
 
 # 09 — Lazo Mientras
 
-← [[08 - Selección Múltiple Según]] | [[00 - Índice Principal]] | Siguiente: [[10 - Lazo Repetir–Hasta Que]] →
+← [[08-Seleccion-Multiple-Segun]] | [[00-Indice-Principal]] | Siguiente: [[10-Lazo-Repetir-Hasta-Que]] →
 
 ---
 
@@ -167,23 +167,23 @@ FinProceso
 
 | Lazo | Condición evaluada | Ejecuciones mínimas |
 |---|---|---|
-| [[09 - Lazo Mientras\|Mientras]] | Antes de cada iteración | 0 (puede no ejecutarse) |
-| [[10 - Lazo Repetir–Hasta Que\|Repetir]] | Después de cada iteración | 1 (siempre ejecuta al menos una vez) |
-| [[11 - Lazo Para\|Para]] | Variable contadora automática | Depende del rango |
+| [[09-Lazo-Mientras\|Mientras]] | Antes de cada iteración | 0 (puede no ejecutarse) |
+| [[10-Lazo-Repetir-Hasta-Que\|Repetir]] | Después de cada iteración | 1 (siempre ejecuta al menos una vez) |
+| [[11-Lazo-Para\|Para]] | Variable contadora automática | Depende del rango |
 
 > [!tip] ¿Cuándo usar `Mientras`?
-> Úsalo cuando **no sabes de antemano** cuántas veces se repetirá el ciclo y la condición debe verificarse antes de ejecutar el cuerpo. Si el cuerpo debe ejecutarse al menos una vez, considera [[10 - Lazo Repetir–Hasta Que]].
+> Úsalo cuando **no sabes de antemano** cuántas veces se repetirá el ciclo y la condición debe verificarse antes de ejecutar el cuerpo. Si el cuerpo debe ejecutarse al menos una vez, considera [[10-Lazo-Repetir-Hasta-Que]].
 
 ---
 
 ## Relación con otros temas
 
-- [[05 - Expresiones y Operadores]] — la condición es una expresión lógica
-- [[10 - Lazo Repetir–Hasta Que]] — variante donde la condición va al final
-- [[11 - Lazo Para]] — variante con contador automático
-- [[04 - Variables e Identificadores]] — la variable contadora debe actualizarse en el cuerpo
-- [[12 - Arreglos]] — `Mientras` se usa para recorrer arreglos con condición dinámica
+- [[05-Expresiones-y-Operadores]] — la condición es una expresión lógica
+- [[10-Lazo-Repetir-Hasta-Que]] — variante donde la condición va al final
+- [[11-Lazo-Para]] — variante con contador automático
+- [[04-Variables-e-Identificadores]] — la variable contadora debe actualizarse en el cuerpo
+- [[12-Arreglos]] — `Mientras` se usa para recorrer arreglos con condición dinámica
 
 ---
 
-← [[08 - Selección Múltiple Según]] | [[00 - Índice Principal]] | Siguiente: [[10 - Lazo Repetir–Hasta Que]] →
+← [[08-Seleccion-Multiple-Segun]] | [[00-Indice-Principal]] | Siguiente: [[10-Lazo-Repetir-Hasta-Que]] →

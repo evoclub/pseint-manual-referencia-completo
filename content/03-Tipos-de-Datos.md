@@ -13,12 +13,12 @@ version: "pseint-20250218"
 
 # 03 — Tipos de Datos
 
-← [[02 - Estructura General]] | [[00 - Índice Principal]] | Siguiente: [[04 - Variables e Identificadores]] →
+← [[02-Estructura-General]] | [[00-Indice-Principal]] | Siguiente: [[04-Variables-e-Identificadores]] →
 
 ---
 
 > [!info] Concepto clave
-> PSeInt maneja **tres tipos de datos fundamentales**: Numérico, Lógico y Carácter/Cadena. Cada [[04 - Variables e Identificadores|variable]] tiene un tipo asociado y **no puede cambiar de tipo** durante la ejecución.
+> PSeInt maneja **tres tipos de datos fundamentales**: Numérico, Lógico y Carácter/Cadena. Cada [[04-Variables-e-Identificadores|variable]] tiene un tipo asociado y **no puede cambiar de tipo** durante la ejecución.
 
 ---
 
@@ -57,7 +57,7 @@ Proceso AreaCirculo
 FinProceso
 ```
 
-Ver también: [[13 - Funciones Matemáticas]]
+Ver también: [[13-Funciones-Matematicas]]
 
 ---
 
@@ -70,14 +70,14 @@ Definir aprobado Como Logico;
 aprobado <- Verdadero;
 ```
 
-Los [[05 - Expresiones y Operadores#Operadores Relacionales|operadores relacionales]] y [[05 - Expresiones y Operadores#Operadores Lógicos|lógicos]] producen valores de tipo lógico:
+Los [[05-Expresiones-y-OperadoresOperadores-Relacionales|operadores relacionales]] y [[05-Expresiones-y-OperadoresOperadores-Logicos|lógicos]] producen valores de tipo lógico:
 
 ```
 Definir esMayor Como Logico;
 esMayor <- (edad >= 18);   // Verdadero o Falso
 ```
 
-Se usa principalmente en condiciones de [[07 - Condicional Si–Entonces]], [[09 - Lazo Mientras]] y [[10 - Lazo Repetir–Hasta Que]].
+Se usa principalmente en condiciones de [[07-Condicional-Si-Entonces]], [[09-Lazo-Mientras]] y [[10-Lazo-Repetir-Hasta-Que]].
 
 ---
 
@@ -100,7 +100,7 @@ mensaje <- "Hola, mundo!";
 ```
 
 > [!note] Lectura de tipos distintos como cadena
-> Si se declara una variable como `Texto` y el usuario ingresa un número (`42`) o un valor lógico (`Verdadero`), se almacenará como la cadena `"42"` o `"Verdadero"`. Para convertir, ver [[14 - Funciones de Cadena]].
+> Si se declara una variable como `Texto` y el usuario ingresa un número (`42`) o un valor lógico (`Verdadero`), se almacenará como la cadena `"42"` o `"Verdadero"`. Para convertir, ver [[14-Funciones-de-Cadena]].
 
 ---
 
@@ -124,7 +124,7 @@ Definir a, b, c Como Entero;
 
 ## Sintaxis alternativa (Perfil Flexible)
 
-Con [[17 - Perfiles de Lenguaje|Sintaxis Flexible]] habilitada se pueden usar las palabras `Es` y `Son`:
+Con [[17-Perfiles-de-Lenguaje|Sintaxis Flexible]] habilitada se pueden usar las palabras `Es` y `Son`:
 
 ```
 x Es Real
@@ -148,14 +148,14 @@ numero <- "Hola";     // ❌ ERROR: tipo incorrecto
 ```
 
 Para convertir entre tipos numérico y cadena, usar:
-- `ConvertirANumero(cadena)` → ver [[14 - Funciones de Cadena]]
-- `ConvertirATexto(numero)` → ver [[14 - Funciones de Cadena]]
+- `ConvertirANumero(cadena)` → ver [[14-Funciones-de-Cadena]]
+- `ConvertirATexto(numero)` → ver [[14-Funciones-de-Cadena]]
 
 ---
 
 ## Arreglos de cualquier tipo
 
-Los [[12 - Arreglos]] pueden ser de cualquiera de los tres tipos:
+Los [[12-Arreglos]] pueden ser de cualquiera de los tres tipos:
 
 ```
 Dimension notas(10);           // arreglo numérico
@@ -182,4 +182,4 @@ TIPOS DE DATOS EN PSeInt
 
 ---
 
-← [[02 - Estructura General]] | [[00 - Índice Principal]] | Siguiente: [[04 - Variables e Identificadores]] →
+← [[02-Estructura-General]] | [[00-Indice-Principal]] | Siguiente: [[04-Variables-e-Identificadores]] →

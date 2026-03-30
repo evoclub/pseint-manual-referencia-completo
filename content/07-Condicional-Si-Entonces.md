@@ -15,7 +15,7 @@ version: "pseint-20250218"
 
 # 07 — Condicional Si–Entonces
 
-← [[06 - Entrada y Salida]] | [[00 - Índice Principal]] | Siguiente: [[08 - Selección Múltiple Según]] →
+← [[06-Entrada-y-Salida]] | [[00-Indice-Principal]] | Siguiente: [[08-Seleccion-Multiple-Segun]] →
 
 ---
 
@@ -71,7 +71,7 @@ FinProceso
 > [!note] Reglas
 > - `Entonces` es **obligatorio**
 > - `SiNo` es **opcional**
-> - La condición debe ser una [[05 - Expresiones y Operadores|expresión lógica]] que produzca `Verdadero` o `Falso`
+> - La condición debe ser una [[05-Expresiones-y-Operadores|expresión lógica]] que produzca `Verdadero` o `Falso`
 
 ---
 
@@ -100,13 +100,13 @@ FinProceso
 ```
 
 > [!tip] Alternativa para muchos casos
-> Cuando hay muchos valores numéricos posibles, considera usar [[08 - Selección Múltiple Según]] en lugar de anidar muchos `Si`.
+> Cuando hay muchos valores numéricos posibles, considera usar [[08-Seleccion-Multiple-Segun]] en lugar de anidar muchos `Si`.
 
 ---
 
 ## Condiciones compuestas con operadores lógicos
 
-Usando los [[05 - Expresiones y Operadores#Operadores Lógicos|operadores lógicos]] se pueden combinar condiciones:
+Usando los [[05-Expresiones-y-OperadoresOperadores-Logicos|operadores lógicos]] se pueden combinar condiciones:
 
 ```
 // Y — ambas condiciones deben ser verdaderas
@@ -129,7 +129,7 @@ FinSi;
 
 ## Condición directa con variable lógica
 
-Si la condición ya es una [[04 - Variables e Identificadores|variable]] de [[03 - Tipos de Datos#Tipo Lógico|tipo Lógico]], puede usarse directamente:
+Si la condición ya es una [[04-Variables-e-Identificadores|variable]] de [[03-Tipos-de-DatosTipo-Logico|tipo Lógico]], puede usarse directamente:
 
 ```
 Definir aprobado Como Logico;
@@ -182,13 +182,13 @@ FinProceso
 
 ## Relación con otros temas
 
-- [[05 - Expresiones y Operadores]] — las condiciones son expresiones lógicas
-- [[03 - Tipos de Datos#Tipo Lógico|Tipo Lógico]] — el resultado de la condición
-- [[08 - Selección Múltiple Según]] — alternativa para múltiples valores numéricos
-- [[09 - Lazo Mientras]] — también usa condiciones lógicas
-- [[10 - Lazo Repetir–Hasta Que]] — condición al final del ciclo
-- [[15 - SubProcesos y Funciones]] — el `Si` puede usarse dentro de funciones
+- [[05-Expresiones-y-Operadores]] — las condiciones son expresiones lógicas
+- [[03-Tipos-de-DatosTipo-Logico|Tipo Lógico]] — el resultado de la condición
+- [[08-Seleccion-Multiple-Segun]] — alternativa para múltiples valores numéricos
+- [[09-Lazo-Mientras]] — también usa condiciones lógicas
+- [[10-Lazo-Repetir-Hasta-Que]] — condición al final del ciclo
+- [[15-SubProcesos-y-Funciones]] — el `Si` puede usarse dentro de funciones
 
 ---
 
-← [[06 - Entrada y Salida]] | [[00 - Índice Principal]] | Siguiente: [[08 - Selección Múltiple Según]] →
+← [[06-Entrada-y-Salida]] | [[00-Indice-Principal]] | Siguiente: [[08-Seleccion-Multiple-Segun]] →

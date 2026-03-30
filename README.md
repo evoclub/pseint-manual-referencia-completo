@@ -1,17 +1,30 @@
-# Quartz v4
+# PSeInt — Manual de Referencia Completo
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Sitio publicado con GitHub Pages:
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+- https://evoclub.github.io/pseint-manual-referencia-completo/
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## Alcance de este repositorio
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+Este repositorio publica exclusivamente el manual de PSeInt en formato web.
 
-## Sponsors
+Fuente de contenido:
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+- `/Users/alexiscarrillo/Library/Mobile Documents/iCloud~md~obsidian/Documents/iC_Obsidian/CURSOS/ConquerB/PSeInt`
+
+## Flujo de publicación
+
+Desde la raíz del repo:
+
+```bash
+npm run sync:pseint
+git add .
+git commit -m "Actualiza contenido PSeInt"
+git push
+```
+
+## Scripts disponibles
+
+- `npm run sync:pseint` sincroniza solo Markdown de PSeInt a `content/` y normaliza enlaces.
+- `npm run build:pseint` sincroniza y compila el sitio.
+- `npm run serve:pseint` sincroniza y levanta preview local en `http://localhost:8080`.

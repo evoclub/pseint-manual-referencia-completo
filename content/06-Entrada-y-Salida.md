@@ -16,7 +16,7 @@ version: "pseint-20250218"
 
 # 06 — Entrada y Salida
 
-← [[05 - Expresiones y Operadores]] | [[00 - Índice Principal]] | Siguiente: [[07 - Condicional Si–Entonces]] →
+← [[05-Expresiones-y-Operadores]] | [[00-Indice-Principal]] | Siguiente: [[07-Condicional-Si-Entonces]] →
 
 ---
 
@@ -27,7 +27,7 @@ version: "pseint-20250218"
 
 ## Entrada — `Leer`
 
-Lee uno o más valores desde el teclado y los asigna a las [[04 - Variables e Identificadores|variables]] indicadas.
+Lee uno o más valores desde el teclado y los asigna a las [[04-Variables-e-Identificadores|variables]] indicadas.
 
 ```
 Leer <variable1>, <variable2>, ..., <variableN>;
@@ -47,7 +47,7 @@ Leer notas(1);
 > [!note] Comportamiento
 > - Cada variable recibe el valor que el usuario escribe y presiona Enter.
 > - Si se leen múltiples variables, el usuario ingresa cada valor por separado.
-> - El tipo del valor ingresado debe coincidir con el [[03 - Tipos de Datos|tipo de la variable]].
+> - El tipo del valor ingresado debe coincidir con el [[03-Tipos-de-Datos|tipo de la variable]].
 
 ---
 
@@ -78,7 +78,7 @@ Escribir "Suma de ", a, " y ", b, " es ", a + b;
 
 ### Sinónimos de `Escribir`
 
-Dependiendo del [[17 - Perfiles de Lenguaje|perfil de lenguaje]] activo:
+Dependiendo del [[17-Perfiles-de-Lenguaje|perfil de lenguaje]] activo:
 
 | Palabra | Disponibilidad |
 |---|---|
@@ -163,7 +163,7 @@ FinProceso
 
 ## Lectura dentro de ciclos
 
-`Leer` es especialmente útil dentro de [[09 - Lazo Mientras]], [[10 - Lazo Repetir–Hasta Que]] y [[11 - Lazo Para]] para cargar datos en [[12 - Arreglos]]:
+`Leer` es especialmente útil dentro de [[09-Lazo-Mientras]], [[10-Lazo-Repetir-Hasta-Que]] y [[11-Lazo-Para]] para cargar datos en [[12-Arreglos]]:
 
 ```
 Proceso CargarArreglo
@@ -183,7 +183,7 @@ FinProceso
 
 ## Salida de valores de cadena y conversión
 
-Para mostrar números como texto o viceversa, ver [[14 - Funciones de Cadena]]:
+Para mostrar números como texto o viceversa, ver [[14-Funciones-de-Cadena]]:
 
 ```
 Definir numero Como Real;
@@ -195,13 +195,13 @@ Escribir "El número es: ", ConvertirATexto(numero);
 
 ## Relación con otros temas
 
-- [[04 - Variables e Identificadores]] — las variables que `Leer` llena y `Escribir` muestra
-- [[03 - Tipos de Datos]] — el tipo de dato determina qué se puede leer/escribir
-- [[05 - Expresiones y Operadores]] — `Escribir` acepta expresiones completas
-- [[11 - Lazo Para]] — combinación típica de `Leer` en ciclos
-- [[12 - Arreglos]] — `Leer` y `Escribir` con arreglos indexados
-- [[14 - Funciones de Cadena]] — conversión entre tipos para la salida
+- [[04-Variables-e-Identificadores]] — las variables que `Leer` llena y `Escribir` muestra
+- [[03-Tipos-de-Datos]] — el tipo de dato determina qué se puede leer/escribir
+- [[05-Expresiones-y-Operadores]] — `Escribir` acepta expresiones completas
+- [[11-Lazo-Para]] — combinación típica de `Leer` en ciclos
+- [[12-Arreglos]] — `Leer` y `Escribir` con arreglos indexados
+- [[14-Funciones-de-Cadena]] — conversión entre tipos para la salida
 
 ---
 
-← [[05 - Expresiones y Operadores]] | [[00 - Índice Principal]] | Siguiente: [[07 - Condicional Si–Entonces]] →
+← [[05-Expresiones-y-Operadores]] | [[00-Indice-Principal]] | Siguiente: [[07-Condicional-Si-Entonces]] →

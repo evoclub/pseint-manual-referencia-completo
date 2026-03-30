@@ -15,12 +15,12 @@ version: "pseint-20250218"
 
 # 10 — Lazo Repetir–Hasta Que
 
-← [[09 - Lazo Mientras]] | [[00 - Índice Principal]] | Siguiente: [[11 - Lazo Para]] →
+← [[09-Lazo-Mientras]] | [[00-Indice-Principal]] | Siguiente: [[11-Lazo-Para]] →
 
 ---
 
 > [!info] Concepto clave
-> El lazo `Repetir` ejecuta el bloque de instrucciones **al menos una vez** y luego repite **hasta que** la condición sea verdadera. A diferencia del [[09 - Lazo Mientras|Mientras]], la condición se evalúa **al final** de cada iteración.
+> El lazo `Repetir` ejecuta el bloque de instrucciones **al menos una vez** y luego repite **hasta que** la condición sea verdadera. A diferencia del [[09-Lazo-Mientras|Mientras]], la condición se evalúa **al final** de cada iteración.
 
 ---
 
@@ -172,13 +172,13 @@ Hasta Que (nota >= 0) & (nota <= 10);
 
 ## Relación con otros temas
 
-- [[09 - Lazo Mientras]] — variante con condición al inicio
-- [[11 - Lazo Para]] — variante con contador automático
-- [[05 - Expresiones y Operadores]] — la condición es una expresión lógica
-- [[06 - Entrada y Salida]] — `Leer` dentro del cuerpo para validar entradas
-- [[07 - Condicional Si–Entonces]] — se puede combinar dentro del `Repetir`
-- [[14 - Funciones de Cadena]] — `Minusculas()` para comparar texto ingresado
+- [[09-Lazo-Mientras]] — variante con condición al inicio
+- [[11-Lazo-Para]] — variante con contador automático
+- [[05-Expresiones-y-Operadores]] — la condición es una expresión lógica
+- [[06-Entrada-y-Salida]] — `Leer` dentro del cuerpo para validar entradas
+- [[07-Condicional-Si-Entonces]] — se puede combinar dentro del `Repetir`
+- [[14-Funciones-de-Cadena]] — `Minusculas()` para comparar texto ingresado
 
 ---
 
-← [[09 - Lazo Mientras]] | [[00 - Índice Principal]] | Siguiente: [[11 - Lazo Para]] →
+← [[09-Lazo-Mientras]] | [[00-Indice-Principal]] | Siguiente: [[11-Lazo-Para]] →

@@ -13,7 +13,7 @@ version: "pseint-20250218"
 
 # 02 — Estructura General de un Algoritmo
 
-← [[01 - Qué es PSeInt]] | [[00 - Índice Principal]] | Siguiente: [[03 - Tipos de Datos]] →
+← [[01-Que-es-PSeInt]] | [[00-Indice-Principal]] | Siguiente: [[03-Tipos-de-Datos]] →
 
 ---
 
@@ -41,7 +41,7 @@ FinProceso
 
 ## Sinónimos aceptados
 
-Dependiendo del [[17 - Perfiles de Lenguaje|perfil de lenguaje]], también se aceptan:
+Dependiendo del [[17-Perfiles-de-Lenguaje|perfil de lenguaje]], también se aceptan:
 
 | Palabra | Sinónimo aceptado |
 |---|---|
@@ -79,24 +79,24 @@ FinProceso
 ```
 
 Este algoritmo usa:
-- [[03 - Tipos de Datos]] — declara `nombre` como `Texto`
-- [[06 - Entrada y Salida]] — `Leer` y `Escribir`
+- [[03-Tipos-de-Datos]] — declara `nombre` como `Texto`
+- [[06-Entrada-y-Salida]] — `Leer` y `Escribir`
 
 ---
 
 ## Reglas estructurales
 
 > [!warning] Restricciones importantes
-> 1. **No puede haber instrucciones fuera** del bloque `Proceso ... FinProceso` (salvo declaraciones de [[15 - SubProcesos y Funciones]] y [[16 - Comentarios]]).
-> 2. Las instrucciones terminan con **punto y coma** `;` (obligatorio en perfil estricto, opcional en flexible — ver [[17 - Perfiles de Lenguaje]]).
-> 3. Las estructuras anidadas ([[07 - Condicional Si–Entonces]], [[09 - Lazo Mientras]], etc.) deben comenzar y finalizar **dentro de su contenedora**.
+> 1. **No puede haber instrucciones fuera** del bloque `Proceso ... FinProceso` (salvo declaraciones de [[15-SubProcesos-y-Funciones]] y [[16-Comentarios]]).
+> 2. Las instrucciones terminan con **punto y coma** `;` (obligatorio en perfil estricto, opcional en flexible — ver [[17-Perfiles-de-Lenguaje]]).
+> 3. Las estructuras anidadas ([[07-Condicional-Si-Entonces]], [[09-Lazo-Mientras]], etc.) deben comenzar y finalizar **dentro de su contenedora**.
 > 4. Solo puede haber **un proceso principal** por archivo.
 
 ---
 
 ## Estructura con SubProcesos
 
-Cuando el algoritmo incluye [[15 - SubProcesos y Funciones]], estos se declaran **fuera y antes** del proceso principal:
+Cuando el algoritmo incluye [[15-SubProcesos-y-Funciones]], estos se declaran **fuera y antes** del proceso principal:
 
 ```
 // Declaración del subproceso (va FUERA del Proceso)
@@ -128,13 +128,13 @@ Esto permite comenzar a programar sin tener que recordar la plantilla.
 
 ## Conceptos relacionados en este vault
 
-- [[03 - Tipos de Datos]] — qué tipos de datos se pueden usar dentro del proceso
-- [[04 - Variables e Identificadores]] — cómo nombrar variables dentro del proceso
-- [[06 - Entrada y Salida]] — instrucciones `Leer` y `Escribir` dentro del proceso
-- [[15 - SubProcesos y Funciones]] — cómo modularizar con bloques adicionales
-- [[16 - Comentarios]] — cómo documentar el código
-- [[17 - Perfiles de Lenguaje]] — cómo afecta el perfil a la sintaxis obligatoria
+- [[03-Tipos-de-Datos]] — qué tipos de datos se pueden usar dentro del proceso
+- [[04-Variables-e-Identificadores]] — cómo nombrar variables dentro del proceso
+- [[06-Entrada-y-Salida]] — instrucciones `Leer` y `Escribir` dentro del proceso
+- [[15-SubProcesos-y-Funciones]] — cómo modularizar con bloques adicionales
+- [[16-Comentarios]] — cómo documentar el código
+- [[17-Perfiles-de-Lenguaje]] — cómo afecta el perfil a la sintaxis obligatoria
 
 ---
 
-← [[01 - Qué es PSeInt]] | [[00 - Índice Principal]] | Siguiente: [[03 - Tipos de Datos]] →
+← [[01-Que-es-PSeInt]] | [[00-Indice-Principal]] | Siguiente: [[03-Tipos-de-Datos]] →

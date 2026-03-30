@@ -18,12 +18,12 @@ version: "pseint-20250218"
 
 # 12 — Arreglos
 
-← [[11 - Lazo Para]] | [[00 - Índice Principal]] | Siguiente: [[13 - Funciones Matemáticas]] →
+← [[11-Lazo-Para]] | [[00-Indice-Principal]] | Siguiente: [[13-Funciones-Matematicas]] →
 
 ---
 
 > [!info] Concepto clave
-> Un **arreglo** es una variable que almacena múltiples valores del **mismo [[03 - Tipos de Datos|tipo]]** bajo un solo nombre, accediendo a cada valor mediante un **índice**. Los arreglos pueden ser de una dimensión (vectores) o de múltiples dimensiones (matrices).
+> Un **arreglo** es una variable que almacena múltiples valores del **mismo [[03-Tipos-de-Datos|tipo]]** bajo un solo nombre, accediendo a cada valor mediante un **índice**. Los arreglos pueden ser de una dimensión (vectores) o de múltiples dimensiones (matrices).
 
 ---
 
@@ -48,9 +48,9 @@ Dimension nombres(5), edades(5), promedios(5);
 
 > [!important] Reglas de `Dimension`
 > - Los arreglos deben declararse **antes de usarlos**
-> - Los índices comienzan en **1** (perfil estándar) o **0** (según el perfil — ver [[17 - Perfiles de Lenguaje]])
+> - Los índices comienzan en **1** (perfil estándar) o **0** (según el perfil — ver [[17-Perfiles-de-Lenguaje]])
 > - El tamaño debe ser una expresión numérica **positiva**
-> - El tipo del arreglo se determina por los valores que se le asignan (como las variables normales — ver [[03 - Tipos de Datos]])
+> - El tipo del arreglo se determina por los valores que se le asignan (como las variables normales — ver [[03-Tipos-de-Datos]])
 
 ---
 
@@ -164,7 +164,7 @@ FinProceso
 
 ## Arreglos en SubProcesos
 
-Los arreglos se pasan **por referencia** a los [[15 - SubProcesos y Funciones|SubProcesos]] por defecto. Esto significa que la función puede modificar el arreglo original:
+Los arreglos se pasan **por referencia** a los [[15-SubProcesos-y-Funciones|SubProcesos]] por defecto. Esto significa que la función puede modificar el arreglo original:
 
 ```
 // Subproceso que recibe un arreglo
@@ -238,12 +238,12 @@ FinProceso
 
 ## Relación con otros temas
 
-- [[11 - Lazo Para]] — estructura natural para recorrer arreglos
-- [[03 - Tipos de Datos]] — el arreglo almacena valores de un mismo tipo
-- [[04 - Variables e Identificadores]] — el nombre del arreglo sigue las reglas de identificadores
-- [[07 - Condicional Si–Entonces]] — búsqueda y clasificación dentro de arreglos
-- [[15 - SubProcesos y Funciones]] — arreglos como parámetros (se pasan por referencia)
+- [[11-Lazo-Para]] — estructura natural para recorrer arreglos
+- [[03-Tipos-de-Datos]] — el arreglo almacena valores de un mismo tipo
+- [[04-Variables-e-Identificadores]] — el nombre del arreglo sigue las reglas de identificadores
+- [[07-Condicional-Si-Entonces]] — búsqueda y clasificación dentro de arreglos
+- [[15-SubProcesos-y-Funciones]] — arreglos como parámetros (se pasan por referencia)
 
 ---
 
-← [[11 - Lazo Para]] | [[00 - Índice Principal]] | Siguiente: [[13 - Funciones Matemáticas]] →
+← [[11-Lazo-Para]] | [[00-Indice-Principal]] | Siguiente: [[13-Funciones-Matematicas]] →
