@@ -5,6 +5,66 @@
       <link>https://evoclub.github.io/pseint-manual-referencia-completo</link>
       <description>Últimas 10 notas on PSeInt — Manual de Referencia Completo</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
-      
+      <item>
+    <title>PSeInt — Índice Principal</title>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/00-Indice-Principal</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/00-Indice-Principal</guid>
+    <description><![CDATA[ 📘 PSeInt — Manual de Referencia Completo Versión: pseint-20250218 · Sitio oficial: pseint.sourceforge.net Autor original: Pablo Novara · Licencia: GPL v2 Acerca de este vault Este vault contiene el manual completo de PSeInt organizado en 18 notas interconectadas, una por tema. ]]></description>
+    <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
+  </item><item>
+    <title>01 — ¿Qué es PSeInt?</title>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/01-Que-es-PSeInt</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/01-Que-es-PSeInt</guid>
+    <description><![CDATA[ \n ← 00-Indice-Principal | Siguiente: 02-Estructura-General → Definición PSeInt (Pseudocode Interpreter — Intérprete de Pseudocódigo) es una herramienta educativa de software libre diseñada para enseñar los fundamentos de la programación mediante un pseudolenguaje en español, sin las exigencias sint... ]]></description>
+    <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
+  </item><item>
+    <title>02 — Estructura General de un Algoritmo</title>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/02-Estructura-General</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/02-Estructura-General</guid>
+    <description><![CDATA[ \n ← 01-Que-es-PSeInt | 00-Indice-Principal | Siguiente: 03-Tipos-de-Datos → Concepto clave Todo algoritmo en PSeInt debe estar encerrado entre las palabras clave Proceso y FinProceso. ]]></description>
+    <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
+  </item><item>
+    <title>03 — Tipos de Datos</title>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/03-Tipos-de-Datos</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/03-Tipos-de-Datos</guid>
+    <description><![CDATA[ \n ← 02-Estructura-General | 00-Indice-Principal | Siguiente: 04-Variables-e-Identificadores → Concepto clave PSeInt maneja tres tipos de datos fundamentales: Numérico, Lógico y Carácter/Cadena. ]]></description>
+    <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
+  </item><item>
+    <title>04 — Variables e Identificadores</title>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/04-Variables-e-Identificadores</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/04-Variables-e-Identificadores</guid>
+    <description><![CDATA[ \n ← 03-Tipos-de-Datos | 00-Indice-Principal | Siguiente: 05-Expresiones-y-Operadores → Concepto clave Una variable es un espacio con nombre donde se guarda un valor. ]]></description>
+    <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
+  </item><item>
+    <title>05 — Expresiones y Operadores</title>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/05-Expresiones-y-Operadores</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/05-Expresiones-y-Operadores</guid>
+    <description><![CDATA[ \n ← 04-Variables-e-Identificadores | 00-Indice-Principal | Siguiente: 06-Entrada-y-Salida → Concepto clave Una expresión es una combinación de variables, constantes, operadores y funciones que produce un valor. ]]></description>
+    <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
+  </item><item>
+    <title>06 — Entrada y Salida</title>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/06-Entrada-y-Salida</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/06-Entrada-y-Salida</guid>
+    <description><![CDATA[ \n ← 05-Expresiones-y-Operadores | 00-Indice-Principal | Siguiente: 07-Condicional-Si-Entonces → Concepto clave Las instrucciones de entrada (Leer) y salida (Escribir) son el canal de comunicación entre el algoritmo y el usuario. ]]></description>
+    <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
+  </item><item>
+    <title>07 — Condicional Si–Entonces</title>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/07-Condicional-Si-Entonces</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/07-Condicional-Si-Entonces</guid>
+    <description><![CDATA[ \n ← 06-Entrada-y-Salida | 00-Indice-Principal | Siguiente: 08-Seleccion-Multiple-Segun → Concepto clave La instrucción Si–Entonces ejecuta una secuencia de instrucciones solo si una condición lógica es verdadera. ]]></description>
+    <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
+  </item><item>
+    <title>08 — Selección Múltiple — Según</title>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/08-Seleccion-Multiple-Segun</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/08-Seleccion-Multiple-Segun</guid>
+    <description><![CDATA[ \n ← 07-Condicional-Si-Entonces | 00-Indice-Principal | Siguiente: 09-Lazo-Mientras → Concepto clave La instrucción Según permite ejecutar diferentes bloques de instrucciones dependiendo del valor de una variable numérica. ]]></description>
+    <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
+  </item><item>
+    <title>09 — Lazo Mientras</title>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/09-Lazo-Mientras</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/09-Lazo-Mientras</guid>
+    <description><![CDATA[ \n ← 08-Seleccion-Multiple-Segun | 00-Indice-Principal | Siguiente: 10-Lazo-Repetir-Hasta-Que → Concepto clave El lazo Mientras repite un bloque de instrucciones mientras una condición sea verdadera. ]]></description>
+    <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
+  </item>
     </channel>
   </rss>
