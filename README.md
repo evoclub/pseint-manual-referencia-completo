@@ -6,25 +6,13 @@ Sitio publicado con GitHub Pages:
 
 ## Alcance de este repositorio
 
-Este repositorio publica exclusivamente el manual de PSeInt en formato web.
+Este repositorio contiene solo el sitio estático ya generado del manual de PSeInt.
 
-Fuente de contenido:
+## Estructura mínima
 
-- `/Users/alexiscarrillo/Library/Mobile Documents/iCloud~md~obsidian/Documents/iC_Obsidian/CURSOS/ConquerB/PSeInt`
+- `public/` → sitio web estático que se publica en GitHub Pages.
+- `.github/workflows/deploy.yml` → despliegue automático de `public/`.
 
-## Flujo de publicación
+## Publicación
 
-Desde la raíz del repo:
-
-```bash
-npm run sync:pseint
-git add .
-git commit -m "Actualiza contenido PSeInt"
-git push
-```
-
-## Scripts disponibles
-
-- `npm run sync:pseint` sincroniza solo Markdown de PSeInt a `content/` y normaliza enlaces.
-- `npm run build:pseint` sincroniza y compila el sitio.
-- `npm run serve:pseint` sincroniza y levanta preview local en `http://localhost:8080`.
+Cada push a `v4` o `main` publica `public/` automáticamente en GitHub Pages.
