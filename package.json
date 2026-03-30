@@ -14,6 +14,9 @@
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
     "docs": "npx quartz build --serve -d docs",
+    "sync:pseint": "bash ./scripts/sync-pseint.sh",
+    "build:pseint": "npm run sync:pseint && npx quartz build",
+    "serve:pseint": "npm run sync:pseint && npx quartz build --serve",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
