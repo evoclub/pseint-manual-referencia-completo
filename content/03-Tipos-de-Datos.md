@@ -10,9 +10,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 03 — Tipos de Datos
-
+\n
 ← [[02-Estructura-General]] | [[00-Indice-Principal]] | Siguiente: [[04-Variables-e-Identificadores]] →
 
 ---

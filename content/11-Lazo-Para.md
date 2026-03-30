@@ -13,9 +13,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 11 — Lazo Para
-
+\n
 ← [[10-Lazo-Repetir-Hasta-Que]] | [[00-Indice-Principal]] | Siguiente: [[12-Arreglos]] →
 
 ---

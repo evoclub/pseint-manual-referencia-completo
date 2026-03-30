@@ -12,9 +12,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 17 — Perfiles de Lenguaje
-
+\n
 ← [[16-Comentarios]] | [[00-Indice-Principal]] | Siguiente: [[18-Exportacion-y-Herramientas]] →
 
 ---

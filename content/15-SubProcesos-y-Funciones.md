@@ -14,9 +14,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 15 — SubProcesos y Funciones
-
+\n
 ← [[14-Funciones-de-Cadena]] | [[00-Indice-Principal]] | Siguiente: [[16-Comentarios]] →
 
 ---

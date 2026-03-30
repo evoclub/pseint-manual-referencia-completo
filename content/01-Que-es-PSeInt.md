@@ -9,9 +9,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 01 — ¿Qué es PSeInt?
-
+\n
 ← [[00-Indice-Principal]] | Siguiente: [[02-Estructura-General]] →
 
 ---

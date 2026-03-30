@@ -12,9 +12,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 10 — Lazo Repetir–Hasta Que
-
+\n
 ← [[09-Lazo-Mientras]] | [[00-Indice-Principal]] | Siguiente: [[11-Lazo-Para]] →
 
 ---

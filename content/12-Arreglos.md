@@ -15,9 +15,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 12 — Arreglos
-
+\n
 ← [[11-Lazo-Para]] | [[00-Indice-Principal]] | Siguiente: [[13-Funciones-Matematicas]] →
 
 ---

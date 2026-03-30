@@ -12,9 +12,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 09 — Lazo Mientras
-
+\n
 ← [[08-Seleccion-Multiple-Segun]] | [[00-Indice-Principal]] | Siguiente: [[10-Lazo-Repetir-Hasta-Que]] →
 
 ---

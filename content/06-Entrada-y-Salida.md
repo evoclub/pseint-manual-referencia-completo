@@ -13,9 +13,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 06 — Entrada y Salida
-
+\n
 ← [[05-Expresiones-y-Operadores]] | [[00-Indice-Principal]] | Siguiente: [[07-Condicional-Si-Entonces]] →
 
 ---

@@ -12,9 +12,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 05 — Expresiones y Operadores
-
+\n
 ← [[04-Variables-e-Identificadores]] | [[00-Indice-Principal]] | Siguiente: [[06-Entrada-y-Salida]] →
 
 ---

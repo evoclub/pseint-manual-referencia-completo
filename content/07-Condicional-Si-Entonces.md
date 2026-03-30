@@ -12,9 +12,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 07 — Condicional Si–Entonces
-
+\n
 ← [[06-Entrada-y-Salida]] | [[00-Indice-Principal]] | Siguiente: [[08-Seleccion-Multiple-Segun]] →
 
 ---

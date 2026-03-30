@@ -12,9 +12,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 04 — Variables e Identificadores
-
+\n
 ← [[03-Tipos-de-Datos]] | [[00-Indice-Principal]] | Siguiente: [[05-Expresiones-y-Operadores]] →
 
 ---

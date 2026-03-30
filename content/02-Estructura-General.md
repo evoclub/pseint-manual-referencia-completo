@@ -10,9 +10,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 02 — Estructura General de un Algoritmo
-
+\n
 ← [[01-Que-es-PSeInt]] | [[00-Indice-Principal]] | Siguiente: [[03-Tipos-de-Datos]] →
 
 ---

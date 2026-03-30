@@ -14,9 +14,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 14 — Funciones de Cadena
-
+\n
 ← [[13-Funciones-Matematicas]] | [[00-Indice-Principal]] | Siguiente: [[15-SubProcesos-y-Funciones]] →
 
 ---

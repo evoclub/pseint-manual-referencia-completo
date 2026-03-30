@@ -10,9 +10,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 16 — Comentarios
-
+\n
 ← [[15-SubProcesos-y-Funciones]] | [[00-Indice-Principal]] | Siguiente: [[17-Perfiles-de-Lenguaje]] →
 
 ---

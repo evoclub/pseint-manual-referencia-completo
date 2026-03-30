@@ -13,9 +13,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 08 — Selección Múltiple — Según
-
+\n
 ← [[07-Condicional-Si-Entonces]] | [[00-Indice-Principal]] | Siguiente: [[09-Lazo-Mientras]] →
 
 ---

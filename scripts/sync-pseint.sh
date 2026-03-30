@@ -56,6 +56,56 @@ def replace_wikilink(match):
         return f"[[{left}|{right}]]"
     return f"[[{slug_ascii(inner)}]]"
 
+def normalize_text(text: str) -> str:
+    text = text.strip().lower()
+    text = text.replace("–", "-").replace("—", "-")
+    text = unicodedata.normalize("NFKD", text)
+    text = "".join(ch for ch in text if not unicodedata.combining(ch))
+    text = re.sub(r"[^a-z0-9\- ]+", "", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+def remove_duplicated_h1(content: str) -> str:
+    fm_match = re.match(r"^---\n(.*?)\n---\n?", content, flags=re.DOTALL)
+    if not fm_match:
+        return content
+
+    frontmatter = fm_match.group(1)
+    title = None
+    for line in frontmatter.splitlines():
+        if line.strip().startswith("title:"):
+            title = line.split(":", 1)[1].strip().strip("\"'")
+            break
+    if not title:
+        return content
+    body = content[fm_match.end():]
+
+    body_lstripped = body.lstrip("\n")
+    heading_match = re.match(r"^#\s+(.+?)\s*$", body_lstripped, flags=re.MULTILINE)
+    if not heading_match:
+        return content
+
+    first_h1 = heading_match.group(1).strip()
+    normalized_h1 = normalize_text(first_h1)
+    normalized_title = normalize_text(title)
+    if not (
+        normalized_h1 == normalized_title
+        or normalized_h1.startswith(normalized_title)
+        or normalized_title.startswith(normalized_h1)
+    ):
+        return content
+
+    first_line_end = body_lstripped.find("\n")
+    if first_line_end == -1:
+        new_body = ""
+    else:
+        new_body = body_lstripped[first_line_end + 1 :].lstrip("\\n")
+
+    fm_block = content[:fm_match.end()]
+    if new_body:
+        return fm_block + "\\n" + new_body
+    return fm_block
+
 for fname in os.listdir(target):
     if not fname.lower().endswith(".md"):
         continue
@@ -63,6 +113,7 @@ for fname in os.listdir(target):
     with open(path, "r", encoding="utf-8") as f:
         content = f.read()
     content = re.sub(r"\[\[([^\]]+)\]\]", replace_wikilink, content)
+    content = remove_duplicated_h1(content)
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
 

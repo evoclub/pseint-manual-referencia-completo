@@ -13,9 +13,7 @@ tags:
 created: 2026-03-26
 version: "pseint-20250218"
 ---
-
-# 18 — Exportación y Herramientas
-
+\n
 ← [[17-Perfiles-de-Lenguaje]] | [[00-Indice-Principal]]
 
 ---
