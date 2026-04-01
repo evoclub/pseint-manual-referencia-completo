@@ -156,6 +156,16 @@
       "source": "/18---Exportación-y-Herramientas",
       "destination": "/18-Exportacion-y-Herramientas",
       "permanent": true
+    },
+    {
+      "source": "/01---Qu%C3%A9-es-PSeInt",
+      "destination": "/01-Que-es-PSeInt",
+      "permanent": true
+    },
+    {
+      "source": "/01---Que%CC%81-es-PSeInt",
+      "destination": "/01-Que-es-PSeInt",
+      "permanent": true
     }
   ]
 }
