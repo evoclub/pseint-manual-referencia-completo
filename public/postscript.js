@@ -17,6 +17,15 @@
         if (anchor.target === "_blank" || anchor.hasAttribute("download")) return
         if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
 
+        // Mantiene comportamiento normal de menús/TOC/sidebar de Quartz.
+        if (
+          anchor.closest(
+            ".explorer, .folder-container, .sidebar, .toc, .search, nav, header",
+          )
+        ) {
+          return
+        }
+
         const href = anchor.getAttribute("href")
         if (!href || href.startsWith("#") || href.startsWith("javascript:")) return
 
