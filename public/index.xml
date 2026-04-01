@@ -7,62 +7,62 @@
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>PSeInt — Índice Principal</title>
-    <link>https://evoclub.github.io/pseint-manual-referencia-completo/00---I%CC%81ndice-Principal</link>
-    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/00---I%CC%81ndice-Principal</guid>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/00-Indice-Principal</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/00-Indice-Principal</guid>
     <description><![CDATA[ 📘 PSeInt — Manual de Referencia Completo Versión: pseint-20250218 · Sitio oficial: pseint.sourceforge.net Autor original: Pablo Novara · Licencia: GPL v2 Acerca de este vault Este vault contiene el manual completo de PSeInt organizado en 18 notas interconectadas, una por tema. ]]></description>
     <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
   </item><item>
     <title>01 — ¿Qué es PSeInt?</title>
-    <link>https://evoclub.github.io/pseint-manual-referencia-completo/01---Que%CC%81-es-PSeInt</link>
-    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/01---Que%CC%81-es-PSeInt</guid>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/01-Que-es-PSeInt</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/01-Que-es-PSeInt</guid>
     <description><![CDATA[ 01 — ¿Qué es PSeInt? ← Inicio ⌂ 02 — Estructura General de un Algoritmo → Definición PSeInt (Pseudocode Interpreter — Intérprete de Pseudocódigo) es una herramienta educativa de software libre diseñada para enseñar los fundamentos de la programación mediante un pseudolenguaje en español, sin las exi... ]]></description>
     <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
   </item><item>
     <title>02 — Estructura General de un Algoritmo</title>
-    <link>https://evoclub.github.io/pseint-manual-referencia-completo/02---Estructura-General</link>
-    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/02---Estructura-General</guid>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/02-Estructura-General</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/02-Estructura-General</guid>
     <description><![CDATA[ 02 — Estructura General de un Algoritmo ← 01 — ¿Qué es PSeInt? ⌂ 03 — Tipos de Datos → Concepto clave Todo algoritmo en PSeInt debe estar encerrado entre las palabras clave Proceso y FinProceso. ]]></description>
     <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
   </item><item>
     <title>03 — Tipos de Datos</title>
-    <link>https://evoclub.github.io/pseint-manual-referencia-completo/03---Tipos-de-Datos</link>
-    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/03---Tipos-de-Datos</guid>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/03-Tipos-de-Datos</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/03-Tipos-de-Datos</guid>
     <description><![CDATA[ 03 — Tipos de Datos ← 02 — Estructura General de un Algoritmo ⌂ 04 — Variables e Identificadores → Concepto clave PSeInt maneja tres tipos de datos fundamentales: Numérico, Lógico y Carácter/Cadena. ]]></description>
     <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
   </item><item>
     <title>04 — Variables e Identificadores</title>
-    <link>https://evoclub.github.io/pseint-manual-referencia-completo/04---Variables-e-Identificadores</link>
-    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/04---Variables-e-Identificadores</guid>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/04-Variables-e-Identificadores</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/04-Variables-e-Identificadores</guid>
     <description><![CDATA[ 04 — Variables e Identificadores ← 03 — Tipos de Datos ⌂ 05 — Expresiones y Operadores → Concepto clave Una variable es un espacio con nombre donde se guarda un valor. ]]></description>
     <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
   </item><item>
     <title>05 — Expresiones y Operadores</title>
-    <link>https://evoclub.github.io/pseint-manual-referencia-completo/05---Expresiones-y-Operadores</link>
-    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/05---Expresiones-y-Operadores</guid>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/05-Expresiones-y-Operadores</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/05-Expresiones-y-Operadores</guid>
     <description><![CDATA[ 05 — Expresiones y Operadores ← 04 — Variables e Identificadores ⌂ 06 — Entrada y Salida → Concepto clave Una expresión es una combinación de variables, constantes, operadores y funciones que produce un valor. ]]></description>
     <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
   </item><item>
     <title>06 — Entrada y Salida</title>
-    <link>https://evoclub.github.io/pseint-manual-referencia-completo/06---Entrada-y-Salida</link>
-    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/06---Entrada-y-Salida</guid>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/06-Entrada-y-Salida</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/06-Entrada-y-Salida</guid>
     <description><![CDATA[ 06 — Entrada y Salida ← 05 — Expresiones y Operadores ⌂ 07 — Condicional Si–Entonces → Concepto clave Las instrucciones de entrada (Leer) y salida (Escribir) son el canal de comunicación entre el algoritmo y el usuario. ]]></description>
     <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
   </item><item>
     <title>07 — Condicional Si–Entonces</title>
-    <link>https://evoclub.github.io/pseint-manual-referencia-completo/07---Condicional-Si%E2%80%93Entonces</link>
-    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/07---Condicional-Si%E2%80%93Entonces</guid>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/07-Condicional-Si-Entonces</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/07-Condicional-Si-Entonces</guid>
     <description><![CDATA[ 07 — Condicional Si–Entonces ← 06 — Entrada y Salida ⌂ 08 — Selección Múltiple — Según → Concepto clave La instrucción Si–Entonces ejecuta una secuencia de instrucciones solo si una condición lógica es verdadera. ]]></description>
     <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
   </item><item>
     <title>08 — Selección Múltiple — Según</title>
-    <link>https://evoclub.github.io/pseint-manual-referencia-completo/08---Seleccio%CC%81n-Mu%CC%81ltiple-Segu%CC%81n</link>
-    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/08---Seleccio%CC%81n-Mu%CC%81ltiple-Segu%CC%81n</guid>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/08-Seleccion-Multiple-Segun</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/08-Seleccion-Multiple-Segun</guid>
     <description><![CDATA[ 08 — Selección Múltiple — Según ← 07 — Condicional Si–Entonces ⌂ 09 — Lazo Mientras → Concepto clave La instrucción Según permite ejecutar diferentes bloques de instrucciones dependiendo del valor de una variable numérica. ]]></description>
     <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
   </item><item>
     <title>09 — Lazo Mientras</title>
-    <link>https://evoclub.github.io/pseint-manual-referencia-completo/09---Lazo-Mientras</link>
-    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/09---Lazo-Mientras</guid>
+    <link>https://evoclub.github.io/pseint-manual-referencia-completo/09-Lazo-Mientras</link>
+    <guid>https://evoclub.github.io/pseint-manual-referencia-completo/09-Lazo-Mientras</guid>
     <description><![CDATA[ 09 — Lazo Mientras ← 08 — Selección Múltiple — Según ⌂ 10 — Lazo Repetir–Hasta Que → Concepto clave El lazo Mientras repite un bloque de instrucciones mientras una condición sea verdadera. ]]></description>
     <pubDate>Thu, 26 Mar 2026 04:00:00 GMT</pubDate>
   </item>

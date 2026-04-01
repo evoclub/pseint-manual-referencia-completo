@@ -3,133 +3,158 @@
   "trailingSlash": false,
   "redirects": [
     {
-      "source": "/00-Indice-Principal",
-      "destination": "/00---Índice-Principal",
+      "source": "/00---Índice-Principal",
+      "destination": "/00-Indice-Principal",
+      "permanent": true
+    },
+    {
+      "source": "/00---Índice-Principal",
+      "destination": "/00-Indice-Principal",
       "permanent": true
     },
     {
       "source": "/00---Indice-Principal",
-      "destination": "/00---Índice-Principal",
+      "destination": "/00-Indice-Principal",
       "permanent": true
     },
     {
       "source": "/01---Que-es-PSeInt",
-      "destination": "/01---Qué-es-PSeInt",
+      "destination": "/01-Que-es-PSeInt",
       "permanent": true
     },
     {
-      "source": "/01-Que-es-PSeInt",
-      "destination": "/01---Qué-es-PSeInt",
+      "source": "/01---Qué-es-PSeInt",
+      "destination": "/01-Que-es-PSeInt",
       "permanent": true
     },
     {
-      "source": "/02-Estructura-General",
-      "destination": "/02---Estructura-General",
+      "source": "/01---Qué-es-PSeInt",
+      "destination": "/01-Que-es-PSeInt",
       "permanent": true
     },
     {
-      "source": "/03-Tipos-de-Datos",
-      "destination": "/03---Tipos-de-Datos",
+      "source": "/02---Estructura-General",
+      "destination": "/02-Estructura-General",
       "permanent": true
     },
     {
-      "source": "/04-Variables-e-Identificadores",
-      "destination": "/04---Variables-e-Identificadores",
+      "source": "/03---Tipos-de-Datos",
+      "destination": "/03-Tipos-de-Datos",
       "permanent": true
     },
     {
-      "source": "/05-Expresiones-y-Operadores",
-      "destination": "/05---Expresiones-y-Operadores",
+      "source": "/04---Variables-e-Identificadores",
+      "destination": "/04-Variables-e-Identificadores",
       "permanent": true
     },
     {
-      "source": "/06-Entrada-y-Salida",
-      "destination": "/06---Entrada-y-Salida",
+      "source": "/05---Expresiones-y-Operadores",
+      "destination": "/05-Expresiones-y-Operadores",
+      "permanent": true
+    },
+    {
+      "source": "/06---Entrada-y-Salida",
+      "destination": "/06-Entrada-y-Salida",
+      "permanent": true
+    },
+    {
+      "source": "/07---Condicional-Si–Entonces",
+      "destination": "/07-Condicional-Si-Entonces",
       "permanent": true
     },
     {
       "source": "/07---Condicional-Si-Entonces",
-      "destination": "/07---Condicional-Si–Entonces",
+      "destination": "/07-Condicional-Si-Entonces",
       "permanent": true
     },
     {
-      "source": "/07-Condicional-Si-Entonces",
-      "destination": "/07---Condicional-Si–Entonces",
+      "source": "/08---Selección-Múltiple-Según",
+      "destination": "/08-Seleccion-Multiple-Segun",
       "permanent": true
     },
     {
-      "source": "/08-Seleccion-Multiple-Segun",
-      "destination": "/08---Selección-Múltiple-Según",
+      "source": "/08---Selección-Múltiple-Según",
+      "destination": "/08-Seleccion-Multiple-Segun",
       "permanent": true
     },
     {
       "source": "/08---Seleccion-Multiple-Segun",
-      "destination": "/08---Selección-Múltiple-Según",
+      "destination": "/08-Seleccion-Multiple-Segun",
       "permanent": true
     },
     {
-      "source": "/09-Lazo-Mientras",
-      "destination": "/09---Lazo-Mientras",
+      "source": "/09---Lazo-Mientras",
+      "destination": "/09-Lazo-Mientras",
       "permanent": true
     },
     {
       "source": "/10---Lazo-Repetir-Hasta-Que",
-      "destination": "/10---Lazo-Repetir–Hasta-Que",
+      "destination": "/10-Lazo-Repetir-Hasta-Que",
       "permanent": true
     },
     {
-      "source": "/10-Lazo-Repetir-Hasta-Que",
-      "destination": "/10---Lazo-Repetir–Hasta-Que",
+      "source": "/10---Lazo-Repetir–Hasta-Que",
+      "destination": "/10-Lazo-Repetir-Hasta-Que",
       "permanent": true
     },
     {
-      "source": "/11-Lazo-Para",
-      "destination": "/11---Lazo-Para",
+      "source": "/11---Lazo-Para",
+      "destination": "/11-Lazo-Para",
       "permanent": true
     },
     {
-      "source": "/12-Arreglos",
-      "destination": "/12---Arreglos",
+      "source": "/12---Arreglos",
+      "destination": "/12-Arreglos",
+      "permanent": true
+    },
+    {
+      "source": "/13---Funciones-Matemáticas",
+      "destination": "/13-Funciones-Matematicas",
+      "permanent": true
+    },
+    {
+      "source": "/13---Funciones-Matemáticas",
+      "destination": "/13-Funciones-Matematicas",
       "permanent": true
     },
     {
       "source": "/13---Funciones-Matematicas",
-      "destination": "/13---Funciones-Matemáticas",
+      "destination": "/13-Funciones-Matematicas",
       "permanent": true
     },
     {
-      "source": "/13-Funciones-Matematicas",
-      "destination": "/13---Funciones-Matemáticas",
+      "source": "/14---Funciones-de-Cadena",
+      "destination": "/14-Funciones-de-Cadena",
       "permanent": true
     },
     {
-      "source": "/14-Funciones-de-Cadena",
-      "destination": "/14---Funciones-de-Cadena",
+      "source": "/15---SubProcesos-y-Funciones",
+      "destination": "/15-SubProcesos-y-Funciones",
       "permanent": true
     },
     {
-      "source": "/15-SubProcesos-y-Funciones",
-      "destination": "/15---SubProcesos-y-Funciones",
+      "source": "/16---Comentarios",
+      "destination": "/16-Comentarios",
       "permanent": true
     },
     {
-      "source": "/16-Comentarios",
-      "destination": "/16---Comentarios",
+      "source": "/17---Perfiles-de-Lenguaje",
+      "destination": "/17-Perfiles-de-Lenguaje",
       "permanent": true
     },
     {
-      "source": "/17-Perfiles-de-Lenguaje",
-      "destination": "/17---Perfiles-de-Lenguaje",
+      "source": "/18---Exportación-y-Herramientas",
+      "destination": "/18-Exportacion-y-Herramientas",
       "permanent": true
     },
     {
       "source": "/18---Exportacion-y-Herramientas",
-      "destination": "/18---Exportación-y-Herramientas",
+      "destination": "/18-Exportacion-y-Herramientas",
       "permanent": true
     },
     {
-      "source": "/18-Exportacion-y-Herramientas",
-      "destination": "/18---Exportación-y-Herramientas",
+      "source": "/18---Exportación-y-Herramientas",
+      "destination": "/18-Exportacion-y-Herramientas",
       "permanent": true
     }
   ]
