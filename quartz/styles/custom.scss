@@ -1,0 +1,66 @@
+@use "./base.scss";
+
+// put your custom CSS here!
+.nav-bar {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0.75rem;
+  align-items: stretch;
+  margin: 1rem 0;
+}
+
+.nav-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.5rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 0.6rem;
+  color: var(--dark);
+  background: var(--light);
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 120ms ease, border-color 120ms ease, background-color 120ms ease;
+}
+
+.nav-pill:hover {
+  transform: translateY(-1px);
+  border-color: var(--secondary);
+  background: var(--highlight);
+}
+
+.nav-left {
+  justify-content: flex-start;
+}
+
+.nav-home {
+  min-width: 2.5rem;
+  padding-inline: 0.7rem;
+}
+
+.nav-right {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.nav-top {
+  margin-top: 0.4rem;
+}
+
+.nav-bottom {
+  margin-top: 1.4rem;
+  margin-bottom: 0.8rem;
+}
+
+@media (max-width: 900px) {
+  .nav-bar {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-right,
+  .nav-left {
+    justify-content: center;
+    text-align: center;
+  }
+}
