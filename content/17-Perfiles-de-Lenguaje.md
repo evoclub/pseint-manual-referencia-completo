@@ -1,6 +1,5 @@
 ---
 title: "17 — Perfiles de Lenguaje"
-permalink: 17-Perfiles-de-Lenguaje
 aliases:
   - Perfiles PSeInt
   - Sintaxis flexible estricta

@@ -1,6 +1,5 @@
 ---
 title: "15 — SubProcesos y Funciones"
-permalink: 15-SubProcesos-y-Funciones
 aliases:
   - SubProcesos PSeInt
   - Funciones PSeInt

@@ -1,6 +1,5 @@
 ---
 title: "02 — Estructura General de un Algoritmo"
-permalink: 02-Estructura-General
 aliases:
   - Estructura PSeInt
   - Proceso FinProceso

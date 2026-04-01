@@ -1,6 +1,5 @@
 ---
 title: "PSeInt — Índice Principal"
-permalink: 00-Indice-Principal
 aliases:
   - PSeInt Home
   - Índice PSeInt

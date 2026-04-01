@@ -1,6 +1,5 @@
 ---
 title: "09 — Lazo Mientras"
-permalink: 09-Lazo-Mientras
 aliases:
   - Mientras PSeInt
   - While PSeInt

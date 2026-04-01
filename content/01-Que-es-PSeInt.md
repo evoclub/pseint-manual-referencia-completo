@@ -1,6 +1,5 @@
 ---
 title: "01 — ¿Qué es PSeInt?"
-permalink: 01-Que-es-PSeInt
 aliases:
   - Qué es PSeInt
   - Introducción PSeInt

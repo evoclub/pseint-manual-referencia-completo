@@ -1,6 +1,5 @@
 ---
 title: "14 — Funciones de Cadena"
-permalink: 14-Funciones-de-Cadena
 aliases:
   - Funciones de cadena PSeInt
   - Longitud Subcadena Concatenar

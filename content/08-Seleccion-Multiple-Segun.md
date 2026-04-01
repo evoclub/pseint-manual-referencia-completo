@@ -1,6 +1,5 @@
 ---
 title: "08 — Selección Múltiple — Según"
-permalink: 08-Seleccion-Multiple-Segun
 aliases:
   - Según PSeInt
   - Selección múltiple

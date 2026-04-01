@@ -1,6 +1,5 @@
 ---
 title: "06 — Entrada y Salida"
-permalink: 06-Entrada-y-Salida
 aliases:
   - Leer Escribir PSeInt
   - Entrada salida PSeInt

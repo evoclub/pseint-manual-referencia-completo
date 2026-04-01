@@ -1,6 +1,5 @@
 ---
 title: "03 — Tipos de Datos"
-permalink: 03-Tipos-de-Datos
 aliases:
   - Tipos de Datos PSeInt
   - Numerico Logico Caracter

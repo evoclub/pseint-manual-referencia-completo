@@ -3,7 +3,14 @@ import remarkFrontmatter from "remark-frontmatter"
 import { QuartzTransformerPlugin } from "../types"
 import yaml from "js-yaml"
 import toml from "toml"
-import { FilePath, FullSlug, getFileExtension, slugifyFilePath, slugTag } from "../../util/path"
+import {
+  FilePath,
+  FullSlug,
+  getFileExtension,
+  simplifySlug,
+  slugifyFilePath,
+  slugTag,
+} from "../../util/path"
 import { QuartzPluginData } from "../vfile"
 import { i18n } from "../../i18n"
 
@@ -89,11 +96,23 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
             }
 
             if (data.permalink != null && data.permalink.toString() !== "") {
-              data.permalink = data.permalink.toString() as FullSlug
-              const aliases = file.data.aliases ?? []
-              aliases.push(data.permalink)
-              file.data.aliases = aliases
-              allSlugs.push(data.permalink)
+              const permalink = data.permalink.toString()
+              data.permalink = permalink as FullSlug
+              const permalinkIsMd = getFileExtension(permalink) === ".md"
+              const permalinkSlug = slugifyFilePath(
+                (permalinkIsMd ? permalink : `${permalink}.md`) as FilePath,
+              )
+              const canonicalSlug = file.data.slug as FullSlug | undefined
+
+              // Skip redundant aliases when permalink already matches the page canonical slug.
+              if (!(canonicalSlug && simplifySlug(permalinkSlug) === simplifySlug(canonicalSlug))) {
+                const aliases = file.data.aliases ?? []
+                if (!aliases.includes(permalinkSlug)) {
+                  aliases.push(permalinkSlug)
+                  allSlugs.push(permalinkSlug)
+                }
+                file.data.aliases = aliases
+              }
             }
 
             const cssclasses = coerceToArray(coalesceAliases(data, ["cssclasses", "cssclass"]))

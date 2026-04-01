@@ -1,6 +1,5 @@
 ---
 title: "18 — Exportación y Herramientas"
-permalink: 18-Exportacion-y-Herramientas
 aliases:
   - Exportación PSeInt
   - Diagrama de flujo PSeInt

@@ -1,6 +1,5 @@
 ---
 title: "07 — Condicional Si–Entonces"
-permalink: 07-Condicional-Si-Entonces
 aliases:
   - Si Entonces PSeInt
   - Condicional PSeInt

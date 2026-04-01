@@ -1,6 +1,5 @@
 ---
 title: "11 — Lazo Para"
-permalink: 11-Lazo-Para
 aliases:
   - Para PSeInt
   - For PSeInt

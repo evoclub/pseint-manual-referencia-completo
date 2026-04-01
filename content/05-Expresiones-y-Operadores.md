@@ -1,6 +1,5 @@
 ---
 title: "05 — Expresiones y Operadores"
-permalink: 05-Expresiones-y-Operadores
 aliases:
   - Operadores PSeInt
   - Expresiones PSeInt

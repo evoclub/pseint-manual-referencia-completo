@@ -1,6 +1,5 @@
 ---
 title: "13 — Funciones Matemáticas"
-permalink: 13-Funciones-Matematicas
 aliases:
   - Funciones matemáticas PSeInt
   - RC ABS SEN COS PSeInt

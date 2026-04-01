@@ -1,6 +1,5 @@
 ---
 title: "12 — Arreglos"
-permalink: 12-Arreglos
 aliases:
   - Arreglos PSeInt
   - Arrays PSeInt

@@ -1,6 +1,5 @@
 ---
 title: "16 — Comentarios"
-permalink: 16-Comentarios
 aliases:
   - Comentarios PSeInt
   - Documentar código PSeInt

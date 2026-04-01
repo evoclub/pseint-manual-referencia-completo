@@ -1,6 +1,5 @@
 ---
 title: "10 — Lazo Repetir–Hasta Que"
-permalink: 10-Lazo-Repetir-Hasta-Que
 aliases:
   - Repetir Hasta Que PSeInt
   - Do While PSeInt

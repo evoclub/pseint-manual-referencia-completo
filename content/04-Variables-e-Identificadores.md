@@ -1,6 +1,5 @@
 ---
 title: "04 — Variables e Identificadores"
-permalink: 04-Variables-e-Identificadores
 aliases:
   - Variables PSeInt
   - Identificadores
