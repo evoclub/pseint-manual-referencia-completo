@@ -53,6 +53,15 @@
   margin-bottom: 0.8rem;
 }
 
+.credit-line {
+  margin-top: 0.85rem;
+  text-align: center;
+  font-size: 0.72rem;
+  line-height: 1.35;
+  color: var(--dark);
+  opacity: 0.5;
+}
+
 @media (max-width: 900px) {
   .nav-bar {
     grid-template-columns: 1fr;

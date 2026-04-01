@@ -193,4 +193,4 @@ TIPOS DE DATOS EN PSeInt
   <a class="nav-pill nav-right" href="/04-Variables-e-Identificadores">04 — Variables e Identificadores →</a>
 </div>
 
-| Contribución: Alexis Carrillo | Círculo Interno • EvoClub | Creado con Quartz v4.5.2 © 2026
+<p class="credit-line">Creado con Quartz v4.5.2 © 2026 | Contribución: Alexis Carrillo | Círculo Interno • EvoClub</p>

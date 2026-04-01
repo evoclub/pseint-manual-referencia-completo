@@ -148,4 +148,4 @@ Esto permite comenzar a programar sin tener que recordar la plantilla.
   <a class="nav-pill nav-right" href="/03-Tipos-de-Datos">03 — Tipos de Datos →</a>
 </div>
 
-| Contribución: Alexis Carrillo | Círculo Interno • EvoClub | Creado con Quartz v4.5.2 © 2026
+<p class="credit-line">Creado con Quartz v4.5.2 © 2026 | Contribución: Alexis Carrillo | Círculo Interno • EvoClub</p>

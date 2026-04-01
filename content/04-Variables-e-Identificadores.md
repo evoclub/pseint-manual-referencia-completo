@@ -199,4 +199,4 @@ FinProceso
   <a class="nav-pill nav-right" href="/05-Expresiones-y-Operadores">05 — Expresiones y Operadores →</a>
 </div>
 
-| Contribución: Alexis Carrillo | Círculo Interno • EvoClub | Creado con Quartz v4.5.2 © 2026
+<p class="credit-line">Creado con Quartz v4.5.2 © 2026 | Contribución: Alexis Carrillo | Círculo Interno • EvoClub</p>

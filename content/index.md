@@ -67,4 +67,4 @@ created: 2026-03-26
 
 *PSeInt © 2003–2025 Pablo Novara — GPL v2*
 
-| Contribución: Alexis Carrillo | Círculo Interno • EvoClub | Creado con Quartz v4.5.2 © 2026
+<p class="credit-line">Creado con Quartz v4.5.2 © 2026 | Contribución: Alexis Carrillo | Círculo Interno • EvoClub</p>
