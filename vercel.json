@@ -3,17 +3,22 @@
   "trailingSlash": false,
   "redirects": [
     {
-      "source": "/00---Índice-Principal",
+      "source": "/00---PSeInt-Indice-Principal",
       "destination": "/00-Indice-Principal",
       "permanent": true
     },
     {
-      "source": "/00---Índice-Principal",
+      "source": "/00---PSeInt-Índice-Principal",
       "destination": "/00-Indice-Principal",
       "permanent": true
     },
     {
-      "source": "/00---Indice-Principal",
+      "source": "/00---PSeInt-Índice-Principal",
+      "destination": "/00-Indice-Principal",
+      "permanent": true
+    },
+    {
+      "source": "/00-PSeInt-Indice-Principal",
       "destination": "/00-Indice-Principal",
       "permanent": true
     },
@@ -33,7 +38,12 @@
       "permanent": true
     },
     {
-      "source": "/02---Estructura-General",
+      "source": "/02---Estructura-General-de-un-Algoritmo",
+      "destination": "/02-Estructura-General",
+      "permanent": true
+    },
+    {
+      "source": "/02-Estructura-General-de-un-Algoritmo",
       "destination": "/02-Estructura-General",
       "permanent": true
     },
@@ -58,13 +68,13 @@
       "permanent": true
     },
     {
-      "source": "/07---Condicional-Si–Entonces",
+      "source": "/07---Condicional-Si-Entonces",
       "destination": "/07-Condicional-Si-Entonces",
       "permanent": true
     },
     {
-      "source": "/07---Condicional-Si-Entonces",
-      "destination": "/07-Condicional-Si-Entonces",
+      "source": "/08---Seleccion-Multiple-Segun",
+      "destination": "/08-Seleccion-Multiple-Segun",
       "permanent": true
     },
     {
@@ -74,11 +84,6 @@
     },
     {
       "source": "/08---Selección-Múltiple-Según",
-      "destination": "/08-Seleccion-Multiple-Segun",
-      "permanent": true
-    },
-    {
-      "source": "/08---Seleccion-Multiple-Segun",
       "destination": "/08-Seleccion-Multiple-Segun",
       "permanent": true
     },
@@ -93,11 +98,6 @@
       "permanent": true
     },
     {
-      "source": "/10---Lazo-Repetir–Hasta-Que",
-      "destination": "/10-Lazo-Repetir-Hasta-Que",
-      "permanent": true
-    },
-    {
       "source": "/11---Lazo-Para",
       "destination": "/11-Lazo-Para",
       "permanent": true
@@ -108,7 +108,7 @@
       "permanent": true
     },
     {
-      "source": "/13---Funciones-Matemáticas",
+      "source": "/13---Funciones-Matematicas",
       "destination": "/13-Funciones-Matematicas",
       "permanent": true
     },
@@ -118,7 +118,7 @@
       "permanent": true
     },
     {
-      "source": "/13---Funciones-Matematicas",
+      "source": "/13---Funciones-Matemáticas",
       "destination": "/13-Funciones-Matematicas",
       "permanent": true
     },
@@ -143,17 +143,17 @@
       "permanent": true
     },
     {
-      "source": "/18---Exportación-y-Herramientas",
-      "destination": "/18-Exportacion-y-Herramientas",
-      "permanent": true
-    },
-    {
       "source": "/18---Exportacion-y-Herramientas",
       "destination": "/18-Exportacion-y-Herramientas",
       "permanent": true
     },
     {
       "source": "/18---Exportación-y-Herramientas",
+      "destination": "/18-Exportacion-y-Herramientas",
+      "permanent": true
+    },
+    {
+      "source": "/18---Exportación-y-Herramientas",
       "destination": "/18-Exportacion-y-Herramientas",
       "permanent": true
     }
