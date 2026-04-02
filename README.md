@@ -52,3 +52,5 @@ Cada push a `v4` o `main` publica `public/` automáticamente en GitHub Pages.
   - `docs/RUNBOOK_INCIDENTES_PUBLICACION.md`
 - Bitácora de release:
   - `docs/BITACORA_RELEASE_TEMPLATE.md`
+- Calibración semanal (10 min):
+  - `docs/CALIBRACION_SEMANAL_10_MIN.md`
