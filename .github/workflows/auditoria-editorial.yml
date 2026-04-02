@@ -1,0 +1,50 @@
+name: Auditoria Editorial
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - v4
+    paths:
+      - "content/**"
+      - "scripts/auditar_enlaces.py"
+      - "scripts/sync-pseint.sh"
+      - "vercel.json"
+      - "quartz/plugins/emitters/aliases.ts"
+      - "quartz/plugins/transformers/frontmatter.ts"
+      - "quartz/processors/emit.ts"
+  pull_request:
+    branches:
+      - v4
+    paths:
+      - "content/**"
+      - "scripts/auditar_enlaces.py"
+      - "scripts/sync-pseint.sh"
+      - "vercel.json"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: auditoria-editorial-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  auditoria-enlaces:
+    name: auditoria-enlaces
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      BASE_URL: https://pseint.circulointerno.app
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Ejecutar auditoria editorial
+        run: python3 scripts/auditar_enlaces.py --base-url "$BASE_URL"
