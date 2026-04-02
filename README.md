@@ -11,11 +11,12 @@ Este repositorio contiene solo el sitio estático ya generado del manual de PSeI
 ## Estructura mínima
 
 - `public/` → sitio web estático que se publica en GitHub Pages.
-- `.github/workflows/deploy.yml` → despliegue automático de `public/`.
+- `.github/workflows/deploy.yml` → despliegue de `public/` a GitHub Pages (en cada **push a `v4`** que toque `public/` o el propio workflow, y también bajo demanda con **Run workflow**).
 
 ## Publicación
 
-Cada push a `v4` o `main` publica `public/` automáticamente en GitHub Pages.
+- **GitHub Pages:** al fusionar cambios en la rama `v4` que incluyan `public/`, el workflow despliega solo. También puedes ir a **Actions → Deploy PSeInt site to GitHub Pages → Run workflow** (rama `v4`).
+- **Vercel:** si el proyecto está enlazado al repo con rama de producción `v4` y directorio de salida `public`, cada merge a `v4` genera un deploy (p. ej. dominio `pseint.circulointerno.app` según configuración del equipo).
 
 ## Protocolo editorial recomendado
 
