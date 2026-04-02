@@ -189,4 +189,3 @@ longPalabra <- Longitud(palabra);
   <a class="nav-pill nav-right" href="/06-Entrada-y-Salida">06 — Entrada y Salida →</a>
 </div>
 
-<p class="credit-line">Creado con Quartz v4.5.2 © 2026 por: Alexis Carrillo | Círculo Interno • EvoClub</p>

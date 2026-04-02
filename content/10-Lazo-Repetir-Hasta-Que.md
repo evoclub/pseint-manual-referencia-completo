@@ -191,4 +191,3 @@ Hasta Que (nota >= 0) & (nota <= 10);
   <a class="nav-pill nav-right" href="/11-Lazo-Para">11 — Lazo Para →</a>
 </div>
 
-<p class="credit-line">Creado con Quartz v4.5.2 © 2026 por: Alexis Carrillo | Círculo Interno • EvoClub</p>
