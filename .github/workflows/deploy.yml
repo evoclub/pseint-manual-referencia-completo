@@ -1,8 +1,13 @@
 name: Deploy PSeInt site to GitHub Pages
 
 on:
-  # Keep GitHub Pages as an on-demand backup deploy.
   workflow_dispatch:
+  push:
+    branches:
+      - v4
+    paths:
+      - "public/**"
+      - ".github/workflows/deploy.yml"
 
 permissions:
   contents: read
