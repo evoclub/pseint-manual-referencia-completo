@@ -20,7 +20,7 @@ Cada push a `v4` o `main` publica `public/` automáticamente en GitHub Pages.
 ## Protocolo editorial recomendado
 
 - Documento oficial: `PROTOCOLO_PUBLICACION.md`
-- Plantilla oficial de lección: `content/TEMPLATE_LECCION.md`
+- Plantilla oficial de lección: `docs/plantillas/TEMPLATE_LECCION.md`
 
 ## Auditoría rápida de enlaces
 
