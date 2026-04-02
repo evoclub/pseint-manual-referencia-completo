@@ -31,6 +31,13 @@ Cada push a `v4` o `main` publica `public/` automáticamente en GitHub Pages.
 - Dominio personalizado:
   - `BASE_URL="https://pseint.circulointerno.app" bash scripts/sync-pseint.sh auditar`
 
+## Gate local antes de publicar
+
+- Ejecutar control completo:
+  - `bash scripts/prepush_release_check.sh`
+- Instalar guard local (una vez):
+  - `bash scripts/setup_local_guards.sh`
+
 ## Bloqueo de merges por calidad
 
 - Workflow de calidad: `.github/workflows/auditoria-editorial.yml`
@@ -38,3 +45,10 @@ Cada push a `v4` o `main` publica `public/` automáticamente en GitHub Pages.
   - `auditoria-enlaces`
 - Guía paso a paso:
   - `PROTOCOLO_PUBLICACION.md` (sección "Política de bloqueo")
+
+## Operación y registro
+
+- Runbook de incidentes:
+  - `docs/RUNBOOK_INCIDENTES_PUBLICACION.md`
+- Bitácora de release:
+  - `docs/BITACORA_RELEASE_TEMPLATE.md`
