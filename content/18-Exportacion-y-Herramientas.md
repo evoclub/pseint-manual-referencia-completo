@@ -244,4 +244,3 @@ Las herramientas de PSeInt se complementan con todos los temas del vault:
 > *PSeInt © 2003–2025 Pablo Novara — Licencia GPL v2*  
 > *Vault creado para Obsidian 1.12.7 (Installer 1.8.9) · Versión `pseint-20250218`*
 
-<p class="credit-line">Creado con Quartz v4.5.2 © 2026 por: Alexis Carrillo | Círculo Interno • EvoClub</p>

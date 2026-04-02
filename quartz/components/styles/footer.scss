@@ -1,0 +1,28 @@
+footer {
+  text-align: left;
+  margin-bottom: 4rem;
+
+  .footer-credit {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.72rem;
+    line-height: 1.35;
+    color: var(--dark);
+    opacity: 0.5;
+
+    a {
+      color: var(--secondary);
+      opacity: 1;
+    }
+  }
+
+  & ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 0;
+    opacity: 0.85;
+  }
+}

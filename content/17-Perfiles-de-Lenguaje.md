@@ -190,4 +190,3 @@ En `Configurar → Opciones del Lenguaje → Personalizar`, se pueden ajustar in
   <a class="nav-pill nav-right" href="/18-Exportacion-y-Herramientas">18 — Exportación y Herramientas →</a>
 </div>
 
-<p class="credit-line">Creado con Quartz v4.5.2 © 2026 por: Alexis Carrillo | Círculo Interno • EvoClub</p>

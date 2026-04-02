@@ -10,7 +10,7 @@ Este protocolo define el flujo oficial para crear, revisar y publicar cursos.
   - bloque `nav-top`
   - contenido pedagógico
   - bloque `nav-bottom`
-  - créditos finales con clase `credit-line`
+  - (sin párrafo de créditos en el cuerpo: el pie global del sitio los muestra en `quartz/components/Footer.tsx`)
 - Slug canónico:
   - ASCII
   - `kebab-case`
@@ -36,7 +36,7 @@ Este protocolo define el flujo oficial para crear, revisar y publicar cursos.
 5. Confirmar:
    - no hay bucles de recarga
    - no hay enlaces con `--` o `---`
-   - créditos finales con formato oficial
+   - pie de página con crédito Quartz + atribución (footer del sitio)
 
 ## 3) Checklist post-publicación
 
@@ -107,10 +107,10 @@ Semana 2:
 
 ## 9) Convenciones editoriales oficiales
 
-- Créditos exactos:
-  - `Creado con Quartz v4.5.2 © 2026 por: Alexis Carrillo | Círculo Interno • EvoClub`
-- Estilo de créditos:
-  - `.credit-line`
-  - tipografía pequeña
-  - opacidad al `50%`
+- Créditos del sitio (no van en cada nota):
+  - Se definen en `quartz.layout.ts` → `Component.Footer({ creditAttribution: "…" })` y se renderizan en el pie de todas las páginas.
+  - Texto acordado: `Creado con Quartz v{versión} © {año} por: Alexis Carrillo | Círculo Interno • EvoClub` (la versión de Quartz y el año los inserta el componente).
+- Estilo del crédito en pie:
+  - clase `.footer-credit` en `quartz/components/styles/footer.scss`
+  - tipografía pequeña (~0.72rem), opacidad ~50% en el texto base; enlace a Quartz con color secundario del tema
   - legible en modo día y noche
