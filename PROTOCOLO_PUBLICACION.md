@@ -72,6 +72,8 @@ Para bloquear merges/publicaciones con errores, en GitHub configurar protección
 4. Marcar como requerido el check:
    - `auditoria-enlaces`
 5. Guardar regla.
+6. Usar siempre el template de PR:
+   - `.github/pull_request_template.md`
 
 Con esta política, cualquier PR que rompa enlaces, reintroduzca bucles o use slugs no canónicos quedará bloqueado automáticamente.
 
