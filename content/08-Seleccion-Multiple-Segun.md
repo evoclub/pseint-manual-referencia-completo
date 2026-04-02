@@ -181,4 +181,4 @@ FinSegun
   <a class="nav-pill nav-right" href="/09-Lazo-Mientras">09 — Lazo Mientras →</a>
 </div>
 
-<p class="credit-line">Creado con Quartz v4.5.2 © 2026 | Contribución: Alexis Carrillo | Círculo Interno • EvoClub</p>
+<p class="credit-line">Creado con Quartz v4.5.2 © 2026 por: Alexis Carrillo | Círculo Interno • EvoClub</p>

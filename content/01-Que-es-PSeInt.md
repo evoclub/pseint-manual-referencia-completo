@@ -108,4 +108,4 @@ Los docentes pueden ajustar el rigor sintáctico mediante [[17 - Perfiles de Len
   <a class="nav-pill nav-right" href="/02-Estructura-General">02 — Estructura General de un Algoritmo →</a>
 </div>
 
-<p class="credit-line">Creado con Quartz v4.5.2 © 2026 | Contribución: Alexis Carrillo | Círculo Interno • EvoClub</p>
+<p class="credit-line">Creado con Quartz v4.5.2 © 2026 por: Alexis Carrillo | Círculo Interno • EvoClub</p>
