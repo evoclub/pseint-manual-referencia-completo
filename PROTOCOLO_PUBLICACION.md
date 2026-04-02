@@ -102,6 +102,8 @@ Semana 2:
 - revisar fricción del proceso (tiempos, falsos positivos, bloqueos)
 - ajustar checklist y runbook sin relajar controles críticos
 - consolidar versión final del protocolo
+- usar plantilla semanal de 10 minutos:
+  - `docs/CALIBRACION_SEMANAL_10_MIN.md`
 
 ## 9) Convenciones editoriales oficiales
 
