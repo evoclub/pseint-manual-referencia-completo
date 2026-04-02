@@ -5,22 +5,9 @@ on:
   push:
     branches:
       - v4
-    paths:
-      - "content/**"
-      - "scripts/auditar_enlaces.py"
-      - "scripts/sync-pseint.sh"
-      - "vercel.json"
-      - "quartz/plugins/emitters/aliases.ts"
-      - "quartz/plugins/transformers/frontmatter.ts"
-      - "quartz/processors/emit.ts"
   pull_request:
     branches:
       - v4
-    paths:
-      - "content/**"
-      - "scripts/auditar_enlaces.py"
-      - "scripts/sync-pseint.sh"
-      - "vercel.json"
 
 permissions:
   contents: read

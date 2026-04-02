@@ -21,6 +21,8 @@ Este protocolo define el flujo oficial para crear, revisar y publicar cursos.
 
 ## 2) Checklist pre-publicación (obligatorio)
 
+0. Gate local obligatorio:
+   - `bash scripts/prepush_release_check.sh`
 1. Sincronizar contenido:
    - `bash scripts/sync-pseint.sh sync`
 2. Construir sitio:
@@ -42,6 +44,8 @@ Este protocolo define el flujo oficial para crear, revisar y publicar cursos.
 2. Validar al menos 2 URLs legacy (`301/308` a canónica).
 3. Recarga forzada en navegador (`Cmd+Shift+R`).
 4. Registrar resultado en bitácora (fecha, commit, estado, incidencias).
+5. Usar plantilla:
+   - `docs/BITACORA_RELEASE_TEMPLATE.md`
 
 ## 4) Criterios de calidad de release
 
@@ -77,10 +81,32 @@ Para bloquear merges/publicaciones con errores, en GitHub configurar protección
 
 Con esta política, cualquier PR que rompa enlaces, reintroduzca bucles o use slugs no canónicos quedará bloqueado automáticamente.
 
-## 7) Convenciones editoriales oficiales
+## 7) Operación en solitario (sin aprobador externo)
+
+- `required_approving_review_count` se mantiene en `0` por trabajo individual.
+- calidad humana obligatoria mediante:
+  - template de PR (`.github/pull_request_template.md`)
+  - doble pase en frío (primera revisión + revisión diferida)
+  - bitácora de release (`docs/BITACORA_RELEASE_TEMPLATE.md`)
+- instalar guard local una sola vez:
+  - `bash scripts/setup_local_guards.sh`
+
+## 8) Plan de calibración (1-2 semanas)
+
+Semana 1:
+- aplicar guard local en todos los equipos activos
+- ejecutar `prepush_release_check.sh` antes de cada publicación
+- registrar todas las publicaciones en bitácora
+
+Semana 2:
+- revisar fricción del proceso (tiempos, falsos positivos, bloqueos)
+- ajustar checklist y runbook sin relajar controles críticos
+- consolidar versión final del protocolo
+
+## 9) Convenciones editoriales oficiales
 
 - Créditos exactos:
-  - `Creado con Quartz v4.5.2 © 2026 | Contribución: Alexis Carrillo | Círculo Interno • EvoClub`
+  - `Creado con Quartz v4.5.2 © 2026 por: Alexis Carrillo | Círculo Interno • EvoClub`
 - Estilo de créditos:
   - `.credit-line`
   - tipografía pequeña
